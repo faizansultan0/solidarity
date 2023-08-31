@@ -1,0 +1,24 @@
+.global-button {
+    background-color: #00A9E7;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 6px;
+    transition: background 0.3s ease-out;
+}
+
+.global-button:hover {
+    background-color: #1f8ab1;
+}
+
+.global-button:hover .arrow-icon {
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .global-button {
+        padding: 7px 14px;
+    }
+}
