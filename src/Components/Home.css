@@ -1,4 +1,11 @@
-.homeHero {
-    background-color: #E3F8FF;
+.homeHero > div {
     height: 900px;
 }
+
+.hero1 {
+    background-color: #E3F8FF;
+}
+/* 
+.hero2 {
+    background: url('../assets/images/hero2bg.png');
+} */
