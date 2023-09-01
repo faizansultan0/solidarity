@@ -99,7 +99,33 @@ const Footer = () => {
                     </Row>
                 </Container>
             </div>
-            <div className="botton-section"></div>
+            <div className="bottom-section">
+                <Container>
+                    <div className="bottom-content">
+                        <ul className="bottom-links">
+                            <li className="bottom-link-item">
+                                <Link to='/terms' className="bottom-link" >Terms of use</Link>
+                            </li>
+                            <li className="bottom-link-item">
+                                <Link to='' className="bottom-link" >Privacy and Security</Link>
+                            </li>
+                            <li className="bottom-link-item">
+                                <Link to='' className="bottom-link" >Complaints</Link>
+                            </li>
+                            <li className="bottom-link-item">
+                                <Link to='' className="bottom-link" >Corporate Governance</Link>
+                            </li>
+                            <li className="bottom-link-item">
+                                <Link to='' className="bottom-link" >Investor Relations</Link>
+                            </li>
+                            <li className="bottom-link-item">
+                                <Link to='' className="bottom-link" >Fees & Charges</Link>
+                            </li>
+                        </ul>
+                        <p className="bottom-para">Copyright ©2022 Solidarity Bahrain B.S.C. All rights reserved. Solidarity Bahrain is a Subsidiary of Solidarity Group Holding. Licensed and regulated by the Central Bank of Bahrain as a locally incorporated Takaful Firm – Category four</p>
+                    </div>
+                </Container>
+            </div>
         </footer>
     )
 }
