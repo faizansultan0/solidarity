@@ -1,11 +1,214 @@
+
 .homeHero > div {
     height: 900px;
 }
 
-.hero1 {
-    background-color: #E3F8FF;
+.hero-heading {
+    font-family: QuincyCFMedium;
 }
+
+.hero-para {
+    font-size: 18px;
+    color: #252C32;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.homeHero .hero-blue-btn {
+    font-size: 18px;
+    padding: 16px;
+    width: 168px;
+}
+
+.homeHero .hero-white-btn {
+    font-size: 18px;
+    padding: 16px;
+    width: 168px;
+    background-color: white;
+    border: 1px solid #00A9E7;
+    color: #00A9E7;
+}
+
+.homeHero .hero-white-btn:hover {
+    background-color: #00A9E7;
+    color: white;
+}
+
+.hero1 {
+    background: url('../assets/images/hero1-bg-ellipse.png') right bottom no-repeat, url('../assets/images/hero1-bg-rainbow.png') right bottom no-repeat,#E3F8FF;
+}
+
+.hero1 .hero-heading {
+    padding-top: 196px;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.hero1 .hero-para {
+    margin-bottom: 40px;
+}
+
 /* 
 .hero2 {
     background: url('../assets/images/hero2bg.png');
 } */
+
+
+/* Primary Cards */
+.primary-cards {
+    margin-top: -44px;
+}
+
+.primary-card {
+    padding: 59px 40px 61px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px rgba(91, 104, 113, 0.32), 0px 0px 1px 0px rgba(26, 32, 36, 0.32);
+    border-radius: 10px;
+}
+
+.primary-card .icon-div {
+    margin-bottom: 32px;
+    min-height: 70px;
+}
+
+.primary-card .icon {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.primary-card .heading {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.primary-card .para {
+    color: #5B6871;
+    text-align: center;
+}
+
+/* Media Queries with Max-Width */
+@media screen and (max-width: 1399.9px) {
+    .homeHero > div {
+        height: 750px;
+    }
+
+    .hero1 {
+        background: url('../assets/images/hero1-bg-ellipse.png') right bottom / 50% no-repeat, url('../assets/images/hero1-bg-rainbow.png') right bottom / 70% no-repeat,#E3F8FF;
+    }
+
+    .hero1 .hero-heading {
+        font-size: 70px;
+        margin-bottom: 24px;
+    }
+
+    .hero-para {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .homeHero .hero-blue-btn, .homeHero .hero-white-btn {
+        font-size: 16px;
+        padding: 12px;
+        width: 144px;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    /* Primary Cards */
+    .primary-card {
+        padding: 59px 12px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    /* Hero Section */
+    .homeHero > div {
+        height: 600px;
+    }
+    
+    .hero1 {
+        background: url('../assets/images/hero1-bg-rainbow.png') right bottom / 50% no-repeat,#E3F8FF;
+    }
+
+    .hero1 .hero-heading {
+        padding-top: 170px;
+    }
+
+    /* Primary Cards */
+    .primary-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .homeHero > div {
+        height: 576px;
+    }
+
+    .hero1 .hero-heading {
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .hero1 .hero-heading {
+        font-size: 46px;
+        margin-bottom: 18px;
+    }
+
+    .homeHero .hero-blue-btn, .homeHero .hero-white-btn {
+        width: 130px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero1 .hero-heading {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .hero1 .hero-heading {
+        font-size: 50px;
+        padding-top: 124px;
+    }
+
+    .homeHero .hero-blue-btn, .homeHero .hero-white-btn {
+        font-size: 14px;
+    }
+
+    /* Primary Cards */
+    .primary-card {
+        padding: 40px 12px;
+    }
+
+    .primary-card .heading {
+        font-size: 17px;
+    }
+
+    .primary-card .para {
+        font-size: 14px;
+    }
+}
+
+/* Media Queries with Min-Width */
+@media screen and (min-width: 1200px) {
+    .hero1 .hero-content {
+        width: 488px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero1 .hero-content {
+        width: 492px;
+    }
+}

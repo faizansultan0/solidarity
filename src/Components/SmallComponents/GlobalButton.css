@@ -7,6 +7,7 @@
     display: inline-block;
     border-radius: 6px;
     transition: background 0.3s ease-out;
+    text-align: center;
 }
 
 .global-button:hover {
@@ -17,7 +18,7 @@
     color: black;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.9px) {
     .global-button {
         padding: 7px 14px;
     }
