@@ -1,0 +1,76 @@
+.covered-section {
+    padding: 80px 0;
+    background-color: #F6F8F9;
+}
+
+.covered-section .content {
+    text-align: center;
+}
+
+.covered-section .sm-card {
+    padding: 32px 0 29px;
+    border: 1px solid #E5E9EB;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+    background-color: white;
+}
+
+.covered-section .sm-card:hover {
+    border: 1px solid #008DC0;
+    transform: scale(1.05);
+    box-shadow: 0px 12px 24px 0px rgba(91, 104, 113, 0.24), 0px 0px 1px 0px rgba(26, 32, 36, 0.32);
+}
+
+.covered-section .sm-card:hover .caption {
+    color: #00719A;
+    font-weight: 700;
+}
+
+.covered-section .img-div {
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+.covered-section .sm-card .img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.covered-section .sm-card .caption {
+    font-size: 18px;
+    color: #5B6871;
+    transition: all 0.3 ease-out;
+}
+
+@media screen and (max-width: 1399.9px) {
+    .covered-section .sm-card .caption {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1199.9px) {
+    .covered-section .img-div {
+        height: 54px;
+    }
+
+    .covered-section .sm-card .img {
+        max-width: 54px;
+        max-height: 54px;
+    }
+
+    .covered-section .sm-card .caption {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .covered-section .sm-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .covered-section {
+        padding: 50px 0;
+    }
+}

@@ -12,7 +12,10 @@ import Option3 from '../assets/images/insure-t-3.png';
 import Option4 from '../assets/images/insure-t-4.png';
 import Option5 from '../assets/images/insure-t-5.png';
 import Option6 from '../assets/images/insure-t-6.png';
+import ReadyImage from '../assets/images/ready-img.png';
 import TwoCards from './SmallComponents/TwoCards';
+import CoveredSection from './SmallComponents/CoveredSection';
+
 const Home = () => {
     return (
         <>
@@ -137,6 +140,29 @@ const Home = () => {
                     </Container>
                 </div>
                 <TwoCards />
+            </section>
+
+            <CoveredSection />
+
+            <section className="ready-section">
+                <Container>
+                    <div className="content">
+                        <Row>
+                            <Col lg={7}>
+                                <div className="left-part">
+                                    <h3 className="global-heading">Ready to get insured?</h3>
+                                    <p className="global-para">The great prices, fast claims, and quick renewals are just the beginning. Get the full benefits by signing up with Solidarity.</p>
+                                    <GlobalButton to='#sign-up' text='Get a Quote' arrow='true' />
+                                </div>
+                            </Col>
+                            <Col lg={5}>
+                                <div className="image-part">
+                                    <img src={ReadyImage} alt="Ready to get Insured" className="img" />
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                </Container>
             </section>
         </>
     )

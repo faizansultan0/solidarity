@@ -130,6 +130,7 @@
     border: 1px solid #E5E9EB;
     border-radius: 10px;
     transition: all 0.3s ease-out;
+    background-color: white;
 }
 
 .like-today .sm-card:hover {
@@ -185,6 +186,28 @@
     width: 168px;
 }
 
+/* Ready Section */
+.ready-section {
+    padding-top: 80px;
+    background: url('../assets/images/ready-bg-blur.png') right top no-repeat ,#EDFAFF;
+}
+
+.ready-section .left-part {
+    padding-top: 80px;
+}
+
+.ready-section .global-para {
+    width: 70%;
+}
+
+.ready-section .global-button {
+    width: 168px;
+}
+
+.ready-section .img {
+    width: 100%;
+}
+
 /* Media Queries with Max-Width */
 @media screen and (max-width: 1399.9px) {
     .homeHero > div {
@@ -215,6 +238,11 @@
     .like-today .sm-card .caption {
         font-size: 17px;
     }
+
+    /* Two Cards Section */
+    .two-cards-section {
+        padding-bottom: 110px;
+    }
 }
 
 @media screen and (max-width: 1199.9px) {
@@ -241,7 +269,7 @@
         height: 54px;
     }
 
-    .like-today .img {
+    .like-today .sm-card .img {
         max-width: 54px;
         max-height: 54px;
     }
@@ -251,9 +279,18 @@
     }
 
     /* Two Cards Section */
+    .two-cards-section {
+        padding-bottom: 60px;
+    }
+
     .two-cards-section .global-para {
         width: 60%;
         margin-bottom: 40px;
+    }
+
+    /* Ready Section */
+    .ready-section .global-para {
+        width: 80%;
     }
 }
 
@@ -295,6 +332,9 @@
     }
 
     /* Two Cards Section */
+    .two-cards-section {
+        padding-bottom: 30px;
+    }
     .two-cards-section .global-heading {
         margin-bottom: 4px;
     }
@@ -302,6 +342,15 @@
     .two-cards-section .global-para {
         width: 70%;
         margin-bottom: 30px;
+    }
+
+    /* Ready Section */
+    .ready-section .left-part {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .ready-section .image-part {
+        display: none;
     }
 }
 
@@ -338,6 +387,15 @@
     }
     
     .two-cards-section .global-button {
+        width: 156px;
+    }
+
+    /* Ready Section */
+    .ready-section .global-para {
+        width:100%;
+    }
+
+    .ready-section .global-button {
         width: 156px;
     }
 }

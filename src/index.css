@@ -26,11 +26,13 @@ p {
 .global-heading {
   font-size: 60px;
   font-family: QuincyCFMedium;
+  margin-bottom: 10px;
 }
 
 .global-para {
   font-size: 18px;
   color: #5B6871;
+  margin-bottom: 40px;
 }
 
 /* Custom CSS */
@@ -68,6 +70,7 @@ p {
 
   .global-para {
     font-size: 14px;
+    margin-bottom: 30px;
   }
 }
 
@@ -80,5 +83,11 @@ p {
 @media screen and (max-width: 480px) {
   .global-heading {
     font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .global-heading {
+    font-size: 27px;
   }
 }
