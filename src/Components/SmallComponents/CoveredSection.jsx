@@ -25,7 +25,7 @@ const CoveredSection = () => {
                                     <div className="img-div">
                                         <img src={Covered1} alt="Insurance Option" className='img' />
                                     </div>
-                                    <span className="caption">Motor & Car</span>
+                                    <span className="caption">Sign Up</span>
                                 </div>
                             </Col>
                             <Col lg={2} md={4} sm={6} >
@@ -33,7 +33,7 @@ const CoveredSection = () => {
                                     <div className="img-div">
                                         <img src={Covered2} alt="Insurance Option" className='img' />
                                     </div>
-                                    <span className="caption">Home</span>
+                                    <span className="caption">Video Call</span>
                                 </div>
                             </Col>
                             <Col lg={2} md={4} sm={6} >
@@ -41,7 +41,7 @@ const CoveredSection = () => {
                                     <div className="img-div">
                                         <img src={Covered3} alt="Insurance Option" className='img' />
                                     </div>
-                                    <span className="caption">Travel</span>
+                                    <span className="caption">Whatsapp</span>
                                 </div>
                             </Col>
                             <Col lg={2} md={4} sm={6} >
@@ -49,7 +49,7 @@ const CoveredSection = () => {
                                     <div className="img-div">
                                         <img src={Covered4} alt="Insurance Option" className='img' />
                                     </div>
-                                    <span className="caption">Domestic Helper</span>
+                                    <span className="caption">Contact Us</span>
                                 </div>
                             </Col>
                             <Col lg={2} md={4} sm={6} >
@@ -57,7 +57,7 @@ const CoveredSection = () => {
                                     <div className="img-div">
                                         <img src={Covered5} alt="Insurance Option" className='img' />
                                     </div>
-                                    <span className="caption">Accident</span>
+                                    <span className="caption">Call Us</span>
                                 </div>
                             </Col>
                             <Col lg={2} md={4} sm={6} >
@@ -65,7 +65,7 @@ const CoveredSection = () => {
                                     <div className="img-div">
                                         <img src={Covered6} alt="Insurance Option" className='img' />
                                     </div>
-                                    <span className="caption">Expat Medical Visa</span>
+                                    <span className="caption">Start a Chat</span>
                                 </div>
                             </Col>
                         </Row>
