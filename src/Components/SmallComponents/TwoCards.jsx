@@ -11,14 +11,14 @@ const TwoCards = () => {
                 <div className="content">
                     <div className="tcard primary-card">
                         <div className="icon-div">
-                            <img src={TCard1} alt="Card Image" className="icon" />
+                            <img src={TCard1} alt="Card 1" className="icon" />
                         </div>
                         <h3 className="heading">Motor & Car Claims</h3>
                         <p className="para">Easier process, faster claim. Submit a claim on your motor or car online.</p>
                     </div>
                     <div className="tcard primary-card">
                         <div className="icon-div">
-                            <img src={TCard2} alt="Card Image" className="icon" />
+                            <img src={TCard2} alt="Card 2" className="icon" />
                         </div>
                         <h3 className="heading">Motor & Car Claims</h3>
                         <p className="para">Easier process, faster claim. Submit a claim on your motor or car online.</p>
