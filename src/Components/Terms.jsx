@@ -5,15 +5,15 @@ import TermsReceived from '../Data/terms.json';
 const Terms = () => {
     const TermsData = TermsReceived;
     return (
-        <section className="terms">
+        <section className="article terms">
             <Container>
                 <div className="content">
                     <h1 className="hero-heading">Terms of Use</h1>
 
                     {TermsData.map((term, index) => (
                         <div className='Term' key={index}>
-                            <h2 className="terms-heading"> {index !== 0? index + 1 + '. ' : null} { term.title }</h2>
-                            <p className="terms-para">{ term.description }</p>
+                            <h2 className="article-heading"> {index !== 0? index + 1 + '. ' : null} { term.title }</h2>
+                            <p className="article-para">{ term.description }</p>
                         </div>
                     ))}
                 </div>

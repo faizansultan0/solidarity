@@ -1,58 +1,59 @@
-.terms .content {
+.article .content {
     padding-top: 147px;
 }
 
-.terms .hero-heading {
+.article .hero-heading {
     padding-top: 0;
     font-size: 80px;
     margin-bottom: 50px;
 }
 
-.terms-heading {
+.article-heading {
     font-family: QuincyCFMedium, sans-serif;
     font-size: 30px;
+    margin-bottom: 21px;
 }
 
-.terms-para {
+.article-para {
     color: #5B6871;
     font-size: 14px;
     margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1399.9px) {
-    .terms .content {
+    .article .content {
         padding-top: 130px;
     }
 
-    .terms .hero-heading {
+    .article .hero-heading {
         font-size: 60px;
         margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 991.9px) {
-    .terms .content {
+    .article .content {
         padding-top: 90px;
     }
 
-    .terms .hero-heading {
+    .article .hero-heading {
         font-size: 54px;
         margin-bottom: 20px;
     }
 
-    .terms-para {
+    .article-para {
         margin-bottom: 24px;
     }
 }
 
 @media screen and (max-width: 767.9px) {
-    .terms .hero-heading {
+    .article .hero-heading {
         font-size: 50px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .terms .hero-heading {
+    .article .hero-heading {
         font-size: 44px;
         margin-bottom: 14px;
     }

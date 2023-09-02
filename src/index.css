@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: QuincyCFMedium;
-  src: url('./assets/fonts/QuincyCF/Fontspring-DEMO-quincycf-medium.otf');
+  src: url('./assets/fonts/QuincyCF/QuincyCF-Medium.ttf');
 }
 
 /* Global Styling */
@@ -15,6 +15,10 @@ body {
 }
 
 p {
+  margin: 0;
+}
+
+.zero-margin {
   margin: 0;
 }
 
