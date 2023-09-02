@@ -94,6 +94,71 @@
     text-align: center;
 }
 
+/* Like Today Section */
+.like-today {
+    padding: 100px 0 124px;
+}
+
+.like-today .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.like-today .heading {
+    color: #252C32;
+    font-family: QuincyCF;
+    width: 65%;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.like-today .para {
+    font-size: 18px;
+    color: #5B6871;
+    width: 36%;
+    margin-bottom: 67px;
+}
+
+.like-today .content > .row {
+    width: 100%;
+}
+
+.like-today .sm-card {
+    padding: 32px 0 29px;
+    border: 1px solid #E5E9EB;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.like-today .sm-card:hover {
+    border: 1px solid #008DC0;
+    transform: scale(1.05);
+    box-shadow: 0px 12px 24px 0px rgba(91, 104, 113, 0.24), 0px 0px 1px 0px rgba(26, 32, 36, 0.32);
+}
+
+.like-today .sm-card:hover .caption {
+    color: #00719A;
+    font-weight: 700;
+}
+
+.like-today .img-div {
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+.like-today .sm-card .img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.like-today .sm-card .caption {
+    font-size: 18px;
+    color: #5B6871;
+    transition: all 0.3 ease-out;
+}
+
 /* Media Queries with Max-Width */
 @media screen and (max-width: 1399.9px) {
     .homeHero > div {
@@ -119,12 +184,44 @@
         padding: 12px;
         width: 144px;
     }
+
+    /* Insure Today Section */
+    .like-today .sm-card .caption {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 1199.9px) {
     /* Primary Cards */
     .primary-card {
         padding: 59px 12px;
+    }
+
+    /* Like Today */
+    .like-today {
+        padding: 80px 0;
+    }
+
+    .like-today .heading {
+        font-size: 52px;
+    }
+
+    .like-today .para {
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .like-today .img-div {
+        height: 54px;
+    }
+
+    .like-today .img {
+        max-width: 54px;
+        max-height: 54px;
+    }
+
+    .like-today .sm-card .caption {
+        font-size: 14px;
     }
 }
 
@@ -146,6 +243,24 @@
     .primary-card {
         margin-bottom: 20px;
     }
+
+    /* Insure Today */
+    .like-today {
+        padding: 50px 0;
+    }
+
+    .like-today .heading {
+        font-size: 48px;
+    }
+
+    .like-today .para {
+        font-size: 17px;
+        width: 52%;
+    }
+
+    .like-today .sm-card {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 767.9px) {
@@ -155,6 +270,19 @@
 
     .hero1 .hero-heading {
         font-size: 54px;
+    }
+
+    /* Insurance Today */
+    .like-today {
+        padding: 40px 0;
+    }
+
+    .like-today .heading {
+        width: 80%;
+    }
+
+    .like-today .para {
+        width: 66%;
     }
 }
 
@@ -168,11 +296,31 @@
         width: 130px;
         padding: 8px;
     }
+
+
+    /* Insurance Today */
+    .like-today .heading {
+        font-size: 46px;
+        width: 100%;
+    }
+
+    .like-today .para {
+        width: 78%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .hero1 .hero-heading {
         font-size: 38px;
+    }
+
+    /* Insurance Today */
+    .like-today .heading {
+        font-size: 40px;
+    }
+
+    .like-today .para {
+        width: 90%;
     }
 }
 
@@ -197,6 +345,17 @@
 
     .primary-card .para {
         font-size: 14px;
+    }
+
+    /* Insurance Today */
+    .like-today .heading {
+        font-size: 30px;
+    }
+
+    .like-today .para {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 26px;
     }
 }
 

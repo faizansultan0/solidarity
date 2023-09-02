@@ -6,6 +6,12 @@ import GlobalButton from '../Components/SmallComponents/GlobalButton';
 import PrimaryCardIcon1 from '../assets/images/primary-card-icon-1.png';
 import PrimaryCardIcon2 from '../assets/images/primary-card-icon-2.png';
 import PrimaryCardIcon3 from '../assets/images/primary-card-icon-3.png';
+import Option1 from '../assets/images/insure-t-1.png';
+import Option2 from '../assets/images/insure-t-2.png';
+import Option3 from '../assets/images/insure-t-3.png';
+import Option4 from '../assets/images/insure-t-4.png';
+import Option5 from '../assets/images/insure-t-5.png';
+import Option6 from '../assets/images/insure-t-6.png';
 
 const Home = () => {
     return (
@@ -58,6 +64,65 @@ const Home = () => {
                             </div>
                         </Col>
                     </Row>
+                </Container>
+            </section>
+
+            <section className="like-today">
+                <Container>
+                    <div className="content">
+                        <h3 className="heading">What would you like to insure today?</h3>
+                        <p className="para">Insurance designed to fit your needs; from car to home and much more.</p>
+                        <Row>
+                            <Col lg={2} md={4} sm={6} >
+                                <div className="sm-card">
+                                    <div className="img-div">
+                                        <img src={Option1} alt="Insurance Option" className='img' />
+                                    </div>
+                                    <span className="caption">Motor & Car</span>
+                                </div>
+                            </Col>
+                            <Col lg={2} md={4} sm={6} >
+                                <div className="sm-card">
+                                    <div className="img-div">
+                                        <img src={Option2} alt="Insurance Option" className='img' />
+                                    </div>
+                                    <span className="caption">Home</span>
+                                </div>
+                            </Col>
+                            <Col lg={2} md={4} sm={6} >
+                                <div className="sm-card">
+                                    <div className="img-div">
+                                        <img src={Option3} alt="Insurance Option" className='img' />
+                                    </div>
+                                    <span className="caption">Travel</span>
+                                </div>
+                            </Col>
+                            <Col lg={2} md={4} sm={6} >
+                                <div className="sm-card">
+                                    <div className="img-div">
+                                        <img src={Option4} alt="Insurance Option" className='img' />
+                                    </div>
+                                    <span className="caption">Domestic Helper</span>
+                                </div>
+                            </Col>
+                            <Col lg={2} md={4} sm={6} >
+                                <div className="sm-card">
+                                    <div className="img-div">
+                                        <img src={Option5} alt="Insurance Option" className='img' />
+                                    </div>
+                                    <span className="caption">Accident</span>
+                                </div>
+                            </Col>
+                            <Col lg={2} md={4} sm={6} >
+                                <div className="sm-card">
+                                    <div className="img-div">
+                                        <img src={Option6} alt="Insurance Option" className='img' />
+                                    </div>
+                                    <span className="caption">Expat Medical Visa</span>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </Container>
             </section>
         </>

@@ -23,6 +23,11 @@ p {
   color: #008DC0;
 }
 
+.globalHeading {
+  font-size: 60px;
+  font-family: QuincyCFMedium;
+}
+
 /* Custom CSS */
 @media screen and (min-width: 1200px) {
   .container {
