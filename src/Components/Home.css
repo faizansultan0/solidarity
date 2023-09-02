@@ -159,6 +159,32 @@
     transition: all 0.3 ease-out;
 }
 
+/* Two Cards Section */
+.two-cards-section {
+    /* padding: 116px 0 153px; */
+    padding-bottom: 153px;
+}
+
+.two-cards-section .top-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two-cards-section .global-heading {
+    margin-bottom: 10px;
+}
+
+.two-cards-section .global-para {
+    width: 50%;
+    margin-bottom: 52px;
+}
+
+.two-cards-section .global-button {
+    width: 168px;
+}
+
 /* Media Queries with Max-Width */
 @media screen and (max-width: 1399.9px) {
     .homeHero > div {
@@ -223,6 +249,12 @@
     .like-today .sm-card .caption {
         font-size: 14px;
     }
+
+    /* Two Cards Section */
+    .two-cards-section .global-para {
+        width: 60%;
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 991.9px) {
@@ -261,6 +293,16 @@
     .like-today .sm-card {
         margin-bottom: 20px;
     }
+
+    /* Two Cards Section */
+    .two-cards-section .global-heading {
+        margin-bottom: 4px;
+    }
+
+    .two-cards-section .global-para {
+        width: 70%;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 767.9px) {
@@ -283,6 +325,20 @@
 
     .like-today .para {
         width: 66%;
+    }
+
+    /* Two Cards Section */
+    .two-cards-section .global-heading {
+        margin-bottom: 0px;
+    }
+
+    .two-cards-section .global-para {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .two-cards-section .global-button {
+        width: 156px;
     }
 }
 
@@ -307,11 +363,31 @@
     .like-today .para {
         width: 78%;
     }
+
+    /* Two Cards Section */
+    .two-cards-section .global-para {
+        width: 90%;
+    }
+    
+    .two-cards-section .global-button {
+        width: 156px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .hero1 .hero-heading {
         font-size: 38px;
+    }
+
+    /* Primary Cards */
+    .primary-card .icon-div {
+        height: 54px;
+        margin-bottom: 20px;
+    }
+
+    .primary-card .icon {
+        max-width: 54px;
+        max-height: 54px;
     }
 
     /* Insurance Today */
@@ -321,6 +397,11 @@
 
     .like-today .para {
         width: 90%;
+    }
+
+    /* Two Cards Section */
+    .two-cards-section .global-para {
+        width: 100%;
     }
 }
 

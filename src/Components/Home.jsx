@@ -12,7 +12,7 @@ import Option3 from '../assets/images/insure-t-3.png';
 import Option4 from '../assets/images/insure-t-4.png';
 import Option5 from '../assets/images/insure-t-5.png';
 import Option6 from '../assets/images/insure-t-6.png';
-
+import TwoCards from './SmallComponents/TwoCards';
 const Home = () => {
     return (
         <>
@@ -124,6 +124,19 @@ const Home = () => {
                         </Row>
                     </div>
                 </Container>
+            </section>
+
+            <section className="two-cards-section">
+                <div className="top-part">
+                    <Container>
+                        <div className="top-content">
+                            <h1 className="global-heading">Fast. Convenient. Affordable.</h1>
+                            <p className="global-para">File and track your claims from our online claim form in quick and easy steps. You can also reach out to our claims team for help.</p>
+                            <GlobalButton to='/' text='File a Claim' />
+                        </div>
+                    </Container>
+                </div>
+                <TwoCards />
             </section>
         </>
     )

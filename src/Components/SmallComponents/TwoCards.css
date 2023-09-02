@@ -1,0 +1,43 @@
+.two-cards {
+    padding-top: 40px;
+}
+
+.two-cards .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.two-cards .primary-card {
+    box-shadow: none;
+    padding: 34px 52px;
+    width: 384px;
+}
+
+.two-cards .primary-card:first-of-type {
+    border-right: 1px solid #E5E9EB;
+}
+
+@media screen and (max-width: 991.9px) {
+    .two-cards .primary-card {
+        width: 50%;
+        padding: 54px 24px;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .two-cards .primary-card:first-of-type {
+        border-right: 0;
+    }
+
+    .two-cards .primary-card {
+        width: 100%;
+        padding: 10px 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .two-cards .primary-card {
+        padding: 10px 0px;
+    }
+}

@@ -23,14 +23,62 @@ p {
   color: #008DC0;
 }
 
-.globalHeading {
+.global-heading {
   font-size: 60px;
   font-family: QuincyCFMedium;
+}
+
+.global-para {
+  font-size: 18px;
+  color: #5B6871;
 }
 
 /* Custom CSS */
 @media screen and (min-width: 1200px) {
   .container {
     width: 1152px;
+  }
+}
+
+/* Media Quries */
+@media screen and (max-width: 1199.9px) {
+  .global-heading {
+    font-size: 52px;
+  }
+
+  .global-para {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 991.9px) {
+  .global-heading {
+    font-size: 46px;
+  }
+
+  .global-para {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .global-heading {
+    font-size: 36px;
+  }
+
+  .global-para {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575.9px) {
+  .global-heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .global-heading {
+    font-size: 28px;
   }
 }
