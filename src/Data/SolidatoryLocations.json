@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Solidarity Insurance - Seef Mall",
+        "addressLine" : "Seef Mall - Gate 10",
+        "mapLink" : "https://goo.gl/maps/2QLtFCGQZAAPM9it7",
+        "contact-number": "0921234567"
+    },
+    {
+        "name" : "Solidarity Bahrain Head Office",
+        "addressLine" : "Seef Tower, 7th Floor",
+        "mapLink" : "https://goo.gl/maps/2QLtFCGQZAAPM9it7",
+        "contact-number": "0921234567"
+    },
+    {
+        "name" : "Solidarity Insurance - Salmabad",
+        "addressLine" : "Salmabad",
+        "mapLink" : "https://goo.gl/maps/2QLtFCGQZAAPM9it7",
+        "contact-number": "0921234567"
+    },
+    {
+        "name" : "Solidarity Insurance - Sanad",
+        "addressLine" : "Sanad",
+        "mapLink" : "https://goo.gl/maps/2QLtFCGQZAAPM9it7",
+        "contact-number": "0921234567"
+    },
+    {
+        "name" : "Solidarity Insurance - Behbehani",
+        "addressLine" : "Sitra",
+        "mapLink" : "https://goo.gl/maps/2QLtFCGQZAAPM9it7",
+        "contact-number": "0921234567"
+    }
+]
