@@ -1,3 +1,5 @@
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import './Home.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

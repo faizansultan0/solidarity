@@ -29,7 +29,7 @@
 }
 
 /* Motor Cards */
-.motor-cards .top-part {
+.top-part-w-50 {
     width: 50%;
 }
 
@@ -44,6 +44,191 @@
 .motor-cards .primary-card {
     margin-bottom: 24px;
 }
+
+/* Pros and Cons Section */
+.pros-cons .bottom-part {
+    padding: 50px 0;
+}
+
+.pros-cons .bottom-part .includes-heading {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.pros-cons .global-para {
+    margin-bottom: 0;
+}
+
+.pros-cons .global-ul {
+    list-style-type: disc;
+    margin-bottom: 50px;
+}
+
+.pros-cons .global-heading ~ .global-ul > .global-li {
+    margin-bottom: 28px;
+}
+
+.pros-cons .global-li ~ .global-ul {
+    margin-bottom: 28px;
+}
+
+/* PDF Cards */
+.pdf-cards .pdf-card {
+    width: 336px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #E5E9EB;
+    margin-bottom: 10px;
+}
+
+.pdf-cards .pdf-icon {
+    width: 30px;
+    height: 40px;
+}
+
+.pdf-cards .left-part {
+    display: flex;
+    gap: 12px;
+}
+
+.pdf-cards .label {
+    margin-bottom: 0;
+}
+
+.pdf-cards .file-size {
+    color: #84919A;
+    font-size: 12px;
+}
+
+.pdf-card .button {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+}
+
+.pdf-cards .download-icon {
+    font-size: 24px;
+    color: #84919A;
+}
+
+.pdf-cards .download-icon:hover {
+    color: #676c6f;
+}
+
+/* Carousel */
+.motor-carousel-content {
+    position: relative;
+    height: 100%;
+}
+
+.motor-carousel-content .carousel-parent {
+    background: url('../assets/images/motor-carousel-bg.png') -69.621px -120.237px / 137.862% 152.337% no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 40px 30px 30px 40px;
+    border-radius: 10px;
+}
+
+.carousel .content {
+    width: 56%;
+}
+
+.carousel .global-heading {
+    margin-bottom: 40px;
+}
+
+.carousel .para {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.carousel .link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.arrow-btn {
+    border-radius: 6px;
+    border: 1px solid #00A9E7;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    color: #00A9E7;
+    transition: background 0.3s ease-in-out;
+}
+
+.arrow-btn:hover {
+    background-color: rgba(255, 255, 255, 0.644);
+}
+
+#left-arrow-btn {
+    position: absolute;
+    right: 45px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+#right-arrow-btn {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.pros-cons .slick-dots {
+    padding-left: 0;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0px;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-dots li button {
+    width: 9px;
+    height: 9px;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: white;
+    font-size: 9px;
+}
+
+.slick-dots li button:before {
+    opacity: 1;
+    color: white;
+    font-size: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+/* Note Section */
+.note-content {
+    padding: 50px 0;
+}
+
+.note-content .global-para {
+    width: 75%;
+}
+
 
 /* Motor Two Cards Section */
 #motor-two-cards-section {
@@ -76,17 +261,91 @@
     border-radius: 200px 10px 0 0;
 }
 
+@media screen and (max-width: 1399.9px) {
+    /* Pros and Cons Section */
+    .top-part-w-50 {
+        width: 52%;
+    }
+
+    .pros-cons .bottom-part .includes-heading {
+        gap: 10px;
+    }
+
+    .pros-cons .global-heading svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 @media screen and (max-width: 1199.9px) {
     /* Motor Cards */
-    .motor-cards .top-part {
+    .top-part-w-50 {
         width: 56%;
+    }
+
+    /* Pros and Cons */
+    .pros-cons .bottom-part {
+        padding: 30px 0;
+    }
+
+    .pros-cons .bottom-part .includes-heading {
+        margin-bottom: 14px;
+    }
+
+    .pros-cons .global-ul {
+        margin-bottom: 30px;
+    }
+
+    .pros-cons .global-heading ~ .global-ul > .global-li {
+        margin-bottom: 20px;
+    }
+
+    .pros-cons .global-li ~ .global-ul {
+        margin-bottom: 20px;
+    }
+
+    .carousel .global-heading {
+        font-size: 46px;
+        margin-bottom: 30px;
+    }
+
+    .carousel .para {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .carousel .link {
+        margin-bottom: 80px;
+    }
+
+    
+    .note-content .global-para {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 991.9px) {
     /* Motor Cards */
-    .motor-cards .top-part {
+    .top-part-w-50 {
         width: 68%;
+    }
+
+    /* Pros and Cons Section */
+    .motor-carousel-content .carousel-parent {
+        position: static;
+    }
+
+    .carousel .content {
+        width: 60%;
+    }
+
+    .pros-cons .global-heading ~ .global-ul > .global-li, .pros-cons .global-li ~ .global-ul {
+        margin-bottom: 14px;
+        font-size: 15px;
+    }
+
+    .pdf-cards .pdf-card {
+        width: 100%;
     }
 
     /* Motor Two Cards Section */
@@ -97,15 +356,107 @@
 
 @media screen and (max-width: 480px) {
     /* Motor Cards */
-    .motor-cards .top-part {
+    .top-part-w-50 {
         width: 100%;
     }
-}
 
+    /* Pros and Cons Section */
+    .pros-cons .global-heading svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .pros-cons .bottom-part .includes-heading {
+        font-size: 28px;
+    }
+
+    .pros-cons .global-heading ~ .global-ul > .global-li, .pros-cons .global-li ~ .global-ul {
+        margin-bottom: 10px;
+    }
+
+    .pros-cons .global-ul {
+        margin-bottom: 20px;
+    }
+
+    .carousel .global-heading {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    .carousel .para {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .carousel .link {
+        margin-bottom: 70px;
+    }
+
+    .arrow-btn {
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    #left-arrow-btn {
+        right: 34px;
+    }
+
+    .slick-dots {
+        bottom: 8px;
+    }
+
+    .slick-dots li {
+        width: 14px;
+        height: 14px;
+    }
+}
 
 @media screen and (max-width: 380px) {
     #motor-hero .global-heading {
         font-size: 35px;
+    }
+
+    /* Pros and Cons Section */
+    .pros-cons .bottom-part .includes-heading {
+        font-size: 24px;
+        gap: 6px;
+    }
+
+    .pros-cons ul {
+        padding-left: 1rem;
+    }
+
+    .pros-cons .global-heading ~ .global-ul > .global-li, .pros-cons .global-li ~ .global-ul {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .pdf-cards .download-icon {
+        font-size: 18px;
+    }
+
+    .motor-carousel-content .carousel-parent {
+        padding: 20px;
+    }
+
+    .motor-carousel-content .carousel-parent {
+        background-position: left center;
+    }
+
+    .carousel .global-heading {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .carousel .para {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .carousel .link {
+        margin-bottom: 50px;
     }
 }
 
