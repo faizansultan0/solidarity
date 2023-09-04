@@ -9,6 +9,7 @@
 }
 
 .two-cards .primary-card {
+    background-color: transparent;
     box-shadow: none;
     padding: 34px 52px;
     width: 384px;

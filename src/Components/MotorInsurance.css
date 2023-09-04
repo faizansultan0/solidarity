@@ -1,0 +1,109 @@
+#motor-hero {
+    background: #FFEFEB;
+    padding-bottom: 276px;
+}
+
+#motor-form select:invalid {
+    color: #9AA6AC;
+}
+
+#motor-form option:disabled {
+    display: none;
+}
+
+#motor-form option {
+    color: black;
+}
+
+.checkbox-div {
+    display: flex;
+    gap: 8px;
+}
+
+.checkbox-label {
+    color: #252C32;
+}
+
+.checkbox-label a {
+    color: #252C32;
+}
+
+/* Motor Cards */
+.motor-cards .top-part {
+    width: 50%;
+}
+
+.motor-cards .primary-cards {
+    margin-top: 0;
+}
+
+.motor-cards .primary-cards .row {
+    justify-content: center;
+}
+
+.motor-cards .primary-card {
+    margin-bottom: 24px;
+}
+
+/* Motor Two Cards Section */
+#motor-two-cards-section {
+    background-color: #F6F8F9;
+}
+
+@media screen and (max-width: 1199.9px) {
+    /* Motor Cards */
+    .motor-cards .top-part {
+        width: 56%;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    /* Motor Cards */
+    .motor-cards .top-part {
+        width: 68%;
+    }
+
+    /* Motor Two Cards Section */
+    #motor-two-cards-section {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Motor Cards */
+    .motor-cards .top-part {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    #motor-hero .global-heading {
+        font-size: 35px;
+    }
+}
+
+/* Media Queries with min-width */
+@media screen and (min-width:991.9px) {
+    /* Motor Cards */
+    .motor-cards {
+        padding-bottom: 60px;
+    }
+
+    /* Motor Two Cards Section */
+    #motor-two-cards-section {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    /* Motor Cards */
+    .motor-cards {
+        padding-bottom: 120px;
+    }
+
+    /* Motor Two Cards Section */
+    #motor-two-cards-section {
+        padding-top: 120px;
+    }
+}

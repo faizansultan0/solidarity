@@ -354,6 +354,10 @@
         margin-bottom: 10px;
     }
 
+    .contact-form .global-button {
+        padding: 5px;
+    }
+
     /* Map Section */
     .map-section {
         padding-bottom: 44px;
