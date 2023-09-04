@@ -7,6 +7,7 @@ import Feature2 from '../assets/images/feature-2.png';
 import Feature3 from '../assets/images/feature-3.png';
 import Feature4 from '../assets/images/feature-4.png';
 import Feature5 from '../assets/images/feature-5.png';
+import MotorRide from '../assets/images/motor-ride.png';
 import GlobalButton from './SmallComponents/GlobalButton';
 import TwoCards from './SmallComponents/TwoCards';
 import './MotorInsurance.css';
@@ -182,6 +183,30 @@ const MotorInsurance = () => {
                     </Container>
                 </div>
                 <TwoCards />
+            </section>
+
+            <section className="ready-section" id='motor-ride-section'>
+                <Container>
+                    <div className="content">
+                        <Row>
+                            <Col lg={7}>
+                                <div className="left-part">
+                                    <h3 className="global-heading">It’s an easy ride.</h3>
+                                    <p className="global-para">The great prices, fast claims, and quick renewals are just the beginning. Get the full benefits by signing up with Solidarity.</p>
+                                    <div className="buttons">
+                                        <GlobalButton to='#sign-up' text='Get a Quote' arrow='true' />
+                                        <GlobalButton additionalClass='hero-white-btn' to='/' text='Renew a Policy' />
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col lg={5}>
+                                <div className="image-part">
+                                    <img src={MotorRide} alt="Motor Ride" className="img" />
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                </Container>
             </section>
         </>
     )

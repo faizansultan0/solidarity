@@ -23,7 +23,7 @@
     width: 168px;
 }
 
-.homeHero .hero-white-btn {
+.hero-white-btn {
     font-size: 18px;
     padding: 16px;
     width: 168px;
@@ -32,7 +32,7 @@
     color: #00A9E7;
 }
 
-.homeHero .hero-white-btn:hover {
+.hero-white-btn:hover {
     background-color: #00A9E7;
     color: white;
 }

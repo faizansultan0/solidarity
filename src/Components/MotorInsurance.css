@@ -50,6 +50,32 @@
     background-color: #F6F8F9;
 }
 
+/* Ride Section */
+#motor-ride-section {
+    background: url('../assets/images/ride-bg.png') right top no-repeat, #EDFAFF;
+}
+
+#motor-ride-section .buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#motor-ride-section .hero-white-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+#motor-ride-section .img-part {
+    overflow: hidden;
+}
+
+#motor-ride-section .img {
+    min-width: 100%;
+    height: 480px;
+    border-radius: 200px 10px 0 0;
+}
+
 @media screen and (max-width: 1199.9px) {
     /* Motor Cards */
     .motor-cards .top-part {
@@ -94,6 +120,11 @@
     #motor-two-cards-section {
         padding-top: 60px;
     }
+
+    /* Motor Ride Section */
+    #motor-ride-section .img {
+        height: 400px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -105,5 +136,10 @@
     /* Motor Two Cards Section */
     #motor-two-cards-section {
         padding-top: 120px;
+    }
+
+    /* Motor Ride Section */
+    #motor-ride-section .img {
+        height: 430px;
     }
 }
