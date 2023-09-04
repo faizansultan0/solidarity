@@ -1,0 +1,157 @@
+.main-img-section {
+    margin-top: -263px;
+    padding-bottom: 120px;
+}
+
+.main-img-section .img {
+    width: 100%;
+    border-radius: 10px 10px 200px 10px;
+}
+
+/* Bio Section */
+.bio-section {
+    padding-bottom: 50px;
+}
+
+.bio-section .content {
+    width: 68%;
+}
+
+.bio-section .global-para {
+    margin-bottom: 20px;
+}
+
+/* Person Cards */
+.person-cards .global-heading {
+    margin-bottom: 20px;
+}
+
+.person-card {
+    padding-bottom: 40px;
+}
+
+.person-card .img-div {
+    height: 260px;
+    margin-bottom: 27px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(91, 104, 113, 0.32), 0px 0px 1px 0px rgba(26, 32, 36, 0.32);
+    overflow: hidden;
+}
+
+.person-card .img {
+    min-width: 100%;
+    max-width: 120%;
+    min-height: 260px;
+    border-radius: 10px;
+}
+
+.person-card .name {
+    font-family: QuincyCFMedium;
+    font-size: 26px;
+}
+
+.person-card .tag-line {
+    color: #5B6871;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1199.9px) {
+    .main-img-section {
+        padding-bottom: 86px;
+    }
+
+    /* Bio Section */
+    .bio-section .content {
+        width: 76%;
+    }
+
+    /* Person Cards */
+    .person-card {
+        padding-bottom: 30px;
+    }
+
+    .person-card .img-div {
+        height: 220px;
+        margin-bottom: 16px;
+    }
+    
+    .person-card .img {
+        min-height: 220px;
+        max-height: 240px;
+        border-radius: 10px;
+    }
+
+    .person-card .name {
+        font-size: 24px;
+    }
+
+    .person-card .tag-line {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .main-img-section {
+        padding-bottom: 50px;
+    }
+
+    .main-img-section .img {
+        border-bottom-right-radius: 140px;
+    }
+
+    /* Bio Section */
+    .bio-section .content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    #about-hero {
+        padding-bottom: 250px;
+    }
+
+    .main-img-section {
+        margin-top: -230px;
+    }
+
+    .main-img-section, .bio-section {
+        padding-bottom: 30px;
+    }
+
+    .main-img-section .img {
+        border-bottom-right-radius: 84px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .person-cards .cards {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .person-cards .cards {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #about-hero {
+        padding-bottom: 130px;
+    }
+
+    .main-img-section {
+        margin-top: -116px;
+    }
+
+    .main-img-section .img {
+        border-bottom-right-radius: 50px;
+    }
+}
+
+/* Media Queries with Min Width */
+@media screen and (min-width: 1200px) {
+    .person-cards {
+        padding-bottom: 120px;
+    }
+}
