@@ -6,7 +6,7 @@ import AboutUs from './Components/AboutUs';
 import ContactUs from './Components/ContactUs';
 import News from './Components/News';
 import Terms from './Components/Terms';
-import PrivacySecurity from './Components/PrivacySecurify';
+import PrivacySecurity from './Components/PrivacySecurity';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
