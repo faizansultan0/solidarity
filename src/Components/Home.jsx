@@ -17,26 +17,81 @@ import Option6 from '../assets/images/insure-t-6.png';
 import ReadyImage from '../assets/images/ready-img.png';
 import TwoCards from './SmallComponents/TwoCards';
 import CoveredSection from './SmallComponents/CoveredSection';
+import Slider from 'react-slick';
 
 const Home = () => {
+    let sliderSettings = {
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        fade: true
+    }
+
     return (
         <>
-            <section className='homeHero'>
-                <div className="hero1">
+            <Slider {...sliderSettings} className='homeHero'>
+                <div className="hero" id='hero1'>
                     <Container>
-                        <div className="hero-content">
-                            <h1 className="hero-heading">Insurance made <span className='blueColor'>easy</span></h1>
-                            <p className="hero-para">...one policy at a time. Insurance with reassurance. With Solidarity, you get fast service, super-simple claims and how you can insure what’s important to you. </p>
-                            <div className="hero-buttons">
-                                <GlobalButton additionalClass='hero-blue-btn' to='/' text='Get a Quote' />
-                                <GlobalButton additionalClass='hero-white-btn' to='/' text='Renew a Policy' />
+                        <div className="hero-content-parent">
+                            <div className="hero-content">
+                                <h1 className="hero-heading">Insurance made <span className='blueColor'>easy</span></h1>
+                                <p className="hero-para">...one policy at a time. Insurance with reassurance. With Solidarity, you get fast service, super-simple claims and how you can insure what’s important to you. </p>
+                                <div className="hero-buttons">
+                                    <GlobalButton additionalClass='hero-blue-btn' to='/' text='Get a Quote' />
+                                    <GlobalButton additionalClass='hero-white-btn' to='/' text='Renew a Policy' />
+                                </div>
                             </div>
                         </div>
                     </Container>
                 </div>
-                {/* <div className="hero2"></div>
-                <div className="hero3"></div> */}
-            </section>
+                <div className="hero" id='hero2'>
+                    <Container>
+                        <div className="hero-content-parent">
+                            <div className="hero-content">
+                                <h1 className="hero-heading">More than insurance</h1>
+                                <p className="hero-para">Insurance with reassurance. With Solidarity, you get the best advice on how to protect what’s important to you.</p>
+                                <div className="hero-buttons">
+                                    <GlobalButton additionalClass='hero-blue-btn' to='/' text='Get a Quote' />
+                                    <GlobalButton additionalClass='hero-white-btn' to='/' text='Renew a Policy' />
+                                </div>
+                            </div>
+                        </div>
+                    </Container>
+                </div>
+                <div className="hero" id='hero3'>
+                    <Container>
+                        <div className="hero-content-parent">
+                            <div className="hero-content">
+                                <h1 className="hero-heading">More than insurance</h1>
+                                <p className="hero-para">With Solidarity, you get the best advice on how to protect what’s important to you. </p>
+                                <div className="hero-buttons">
+                                    <GlobalButton additionalClass='hero-blue-btn' to='/' text='Get a Quote' />
+                                    <GlobalButton additionalClass='hero-white-btn' to='/' text='Renew a Policy' />
+                                </div>
+                            </div>
+                        </div>
+                    </Container>
+                </div>
+                <div className="hero" id='hero4'>
+                    <Container>
+                        <div className="hero-content-parent">
+                            <div className="hero-content">
+                                <h1 className="hero-heading">Exciting summer offers</h1>
+                                <p className="hero-para">With Solidarity, you get the best advice on how to protect what’s important to you. </p>
+                                <div className="hero-buttons">
+                                    <GlobalButton additionalClass='hero-blue-btn' to='/' text='Get a Quote' />
+                                    <GlobalButton additionalClass='hero-white-btn' to='/' text='Renew a Policy' />
+                                </div>
+                            </div>
+                        </div>
+                    </Container>
+                </div>
+            </Slider>
 
             <section className="primary-cards">
                 <Container>

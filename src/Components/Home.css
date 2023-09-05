@@ -1,6 +1,20 @@
-
-.homeHero > div {
+.homeHero .hero {
     height: 900px;
+}
+
+.hero-content-parent {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
 
 .hero-heading {
@@ -37,29 +51,104 @@
     color: white;
 }
 
-.hero1 {
+#hero1 {
     background: url('../assets/images/hero1-bg-ellipse.png') right bottom no-repeat, url('../assets/images/hero1-bg-rainbow.png') right bottom no-repeat,#E3F8FF;
 }
 
-.hero1 .hero-heading {
+#hero1 .hero-content {
+    width: 488px;
+}
+
+#hero1 .hero-heading {
     padding-top: 196px;
     font-size: 80px;
     margin-bottom: 30px;
 }
 
-.hero1 .hero-para {
+#hero1 .hero-para {
     margin-bottom: 40px;
+    width: 90%;
 }
 
-/* 
-.hero2 {
-    background: url('../assets/images/hero2bg.png');
-} */
+#hero2 {
+    background: url('../assets/images/hero2bg.png') center no-repeat,#E3F8FF;
+    background-size: cover;
+}
+
+#hero2 .hero-content-parent {
+    justify-content: center;
+}
+
+#hero2 .hero-content {
+    width: 663px;
+    text-align: center;
+    align-items: center;
+}
+
+#hero2 .hero-heading {
+    font-size: 70px;
+    padding-top: 140px;
+    margin-bottom: 27px;
+}
+
+#hero2 .hero-para {
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+#hero3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../assets/images/hero3bg.png') no-repeat center center,#E3F8FF;
+}
+
+#hero3 .hero-content-parent {
+    justify-content: center;
+}
+
+#hero3 .hero-content {
+    width: 65%;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#hero3 .hero-heading {
+    font-size: 70px;
+    padding-top: 195px;
+    margin-bottom: 30px;
+}
+
+#hero3 .hero-para {
+    color: white;
+    margin-bottom: 40px;
+    width: 66%;
+}
+
+#hero4 {
+    background: url('../assets/images/hero4bg.png') no-repeat left bottom;
+    background-size:auto;
+}
+
+#hero4 .hero-content {
+    width: 50%;
+}
+
+#hero4 .hero-heading {
+    padding-top: 179px;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+#hero4 .hero-para {
+    margin-bottom: 40px;
+    width: 86%;
+}
 
 
 /* Primary Cards */
 .primary-cards {
     margin-top: -44px;
+    position: relative;
+    z-index: 1;
 }
 
 .primary-card {
@@ -210,15 +299,15 @@
 
 /* Media Queries with Max-Width */
 @media screen and (max-width: 1399.9px) {
-    .homeHero > div {
+    .homeHero .hero {
         height: 750px;
     }
 
-    .hero1 {
+    #hero1 {
         background: url('../assets/images/hero1-bg-ellipse.png') right bottom / 50% no-repeat, url('../assets/images/hero1-bg-rainbow.png') right bottom / 70% no-repeat,#E3F8FF;
     }
 
-    .hero1 .hero-heading {
+    #hero1 .hero-heading {
         font-size: 70px;
         margin-bottom: 24px;
     }
@@ -234,6 +323,15 @@
         width: 144px;
     }
 
+    #hero2 .hero-heading {
+        padding-top: 130px;
+        margin-bottom: 14px;
+    }
+
+    #hero2 .hero-para {
+        margin-bottom: 20px;
+    }
+
     /* Insure Today Section */
     .like-today .sm-card .caption {
         font-size: 17px;
@@ -246,6 +344,25 @@
 }
 
 @media screen and (max-width: 1199.9px) {
+    /* Hero Section */
+    #hero1 .hero-heading {
+        padding-top: 160px;
+    }
+
+    #hero2 .hero-heading {
+        padding-top: 120px;
+        font-size: 66px;
+        margin-bottom: 8px;
+    }
+
+    #hero3 .hero-content {
+        width: 70%;
+    }
+
+    #hero4 .hero-heading {
+        font-size: 70px;
+    }
+
     /* Primary Cards */
     .primary-card {
         padding: 59px 12px;
@@ -300,12 +417,42 @@
         height: 600px;
     }
     
-    .hero1 {
+    #hero1 {
         background: url('../assets/images/hero1-bg-rainbow.png') right bottom / 50% no-repeat,#E3F8FF;
     }
 
-    .hero1 .hero-heading {
-        padding-top: 170px;
+    #hero1 .hero-heading {
+        padding-top: 126px;
+    }
+
+    #hero2 .hero-heading {
+        font-size: 56px;
+    }
+
+    #hero2 .hero-para {
+        width: 70%;
+    }
+
+    #hero3 .hero-content {
+        width: 100%;
+    }
+
+    #hero3 .hero-heading {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    #hero3 .hero-para {
+        margin-bottom: 30px;
+    }
+
+    #hero4 .hero-content {
+        width: 70%;
+    }
+
+    #hero4 .hero-heading {
+        font-size: 66px;
+        padding-top: 150px;
     }
 
     /* Primary Cards */
@@ -355,12 +502,36 @@
 }
 
 @media screen and (max-width: 767.9px) {
-    .homeHero > div {
+    #homeHero > div {
         height: 576px;
     }
 
-    .hero1 .hero-heading {
-        font-size: 54px;
+    #hero1 .hero-content {
+        width: 90%;
+    }
+
+    #hero1 .hero-heading {
+        font-size: 66px;
+    }
+
+    #hero2 .hero-heading {
+        font-size: 50px;
+    }
+
+    #hero2 .hero-para {
+        width: 90%;
+    }
+
+    #hero3 .hero-heading {
+        font-size: 56px;
+    }
+
+    #hero3 .hero-para {
+        width: 100%;
+    }
+
+    #hero4 .hero-content {
+        width: 90%;
     }
 
     /* Insurance Today */
@@ -401,7 +572,19 @@
 }
 
 @media screen and (max-width: 575.9px) {
-    .hero1 .hero-heading {
+    .homeHero {
+        height: 500px;
+    }
+
+    .homeHero .hero {
+        height: 500px;
+    }
+
+    #hero1 .hero-content {
+        width: 100%;
+    }
+
+    #hero1 .hero-heading {
         font-size: 46px;
         margin-bottom: 18px;
     }
@@ -411,6 +594,35 @@
         padding: 8px;
     }
 
+    #hero2 .hero-heading {
+        font-size: 42px;
+    }
+
+    #hero2 .hero-para {
+        font-size: 14px;
+    }
+
+    #hero3 {
+        background-size: cover;
+    }
+
+    #hero3 .hero-heading {
+        padding-top: 144px;
+        font-size: 48px;
+    }
+
+    #hero3 .hero-para {
+        width: 90%;
+    }
+
+    #hero4 .hero-content {
+        width: 80%;
+    }
+
+    #hero4 .hero-heading {
+        font-size: 50px;
+        padding-top: 130px;
+    }
 
     /* Insurance Today */
     .like-today .heading {
@@ -433,8 +645,33 @@
 }
 
 @media screen and (max-width: 480px) {
-    .hero1 .hero-heading {
+    #hero1 .hero-heading {
         font-size: 38px;
+    }
+
+    #hero2 .hero-heading {
+        font-size: 36px;
+    }
+
+    #hero2 .hero-para {
+        width: 100%;
+    }
+
+    #hero3 .hero-heading {
+        padding-top: 116px;
+        font-size: 38px;
+    }
+
+    #hero4 .hero-content {
+        width: 100%;
+    }
+
+    #hero4 .hero-heading {
+        margin-bottom: 20px;
+    }
+
+    #hero4 .hero-para {
+        width: 100%;
     }
 
     /* Primary Cards */
@@ -464,13 +701,46 @@
 }
 
 @media screen and (max-width: 373px) {
-    .hero1 .hero-heading {
-        font-size: 50px;
+    #hero1 .hero-heading {
+        font-size: 38px;
         padding-top: 124px;
+        margin-bottom: 10px;
+    }
+
+    #hero1 .hero-para {
+        width: 100%;
+        margin-bottom: 26px;
     }
 
     .homeHero .hero-blue-btn, .homeHero .hero-white-btn {
         font-size: 14px;
+    }
+
+    #hero2 .hero-heading {
+        font-size: 28px;
+    }
+
+    .homeHero .hero-blue-btn, .homeHero .hero-white-btn {
+        padding: 4px;
+        width: 116px;
+    }
+
+    #hero3 .hero-heading {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    #hero3 .hero-para {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #hero4 .hero-heading {
+        font-size: 39px;
+    }
+
+    #hero4 .hero-para {
+        margin-bottom: 30px;
     }
 
     /* Primary Cards */
