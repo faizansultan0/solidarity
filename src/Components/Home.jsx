@@ -15,6 +15,7 @@ import Option4 from '../assets/images/insure-t-4.png';
 import Option5 from '../assets/images/insure-t-5.png';
 import Option6 from '../assets/images/insure-t-6.png';
 import ReadyImage from '../assets/images/ready-img.png';
+import StepsImage from '../assets/images/steps-img.png';
 import TwoCards from './SmallComponents/TwoCards';
 import CoveredSection from './SmallComponents/CoveredSection';
 import Slider from 'react-slick';
@@ -179,6 +180,37 @@ const Home = () => {
                                         <img src={Option6} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Expat Medical Visa</span>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="steps-section">
+                <Container>
+                    <div className="top-part">
+                        <h1 className="global-heading">Insure in simple steps</h1>
+                        <p className="global-para">If you would rather buy insurance without our help, try our easy-to-use platform to make your choices and customize your plan</p>
+                    </div>
+                    <div className="bottom-part">
+                        <Row>
+                            <Col md={4}>
+                                <h4 className="global-heading">Solidarity Portal</h4>
+
+                                <h5 className="sm-heading">Tell us about yourself</h5>
+                                <p className="global-para">We just need your CPR number, email, and mobile number to get started</p>
+                            
+                                <h5 className="sm-heading">Make your choice</h5>
+                                <p className="global-para">Select which insurance policy you would like to sign up for</p>
+
+                                <h5 className="sm-heading">Customize your plan</h5>
+                                <p className="global-para">Include any add-ons that best suit your requirments and finalize your insurance policy</p>
+                                <GlobalButton text='Sign up' arrow='true' />
+                            </Col>
+                            <Col md={8}>
+                                <div className="right-part">
+                                    <img src={StepsImage} alt="Step 1" className='img' />
                                 </div>
                             </Col>
                         </Row>

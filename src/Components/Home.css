@@ -249,6 +249,41 @@
     transition: all 0.3 ease-out;
 }
 
+/* Steps Section */
+.steps-section {
+    background-color: #EDFAFF;
+    padding: 80px 0;
+}
+
+.steps-section .top-part .global-para {
+    width: 40%;
+    margin-bottom: 55px;
+}
+
+.steps-section .bottom-part .global-heading {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.steps-section .sm-heading {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.steps-section .bottom-part .global-para {
+    font-size: 14px;
+    width: 70%;
+    margin-bottom: 70px;
+}
+
+.steps-section .global-button {
+    width: 168px;
+}
+
+.steps-section .img {
+    width: 100%;
+}
+
 /* Two Cards Section */
 .two-cards-section {
     /* padding: 116px 0 153px; */
@@ -395,6 +430,16 @@
         font-size: 14px;
     }
 
+    /* Steps Section */
+    .steps-section .top-part .global-para {
+        width: 44%;
+    }
+
+    .steps-section .bottom-part .global-para {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
     /* Two Cards Section */
     .two-cards-section {
         padding-bottom: 60px;
@@ -478,6 +523,30 @@
         margin-bottom: 20px;
     }
 
+    /* Steps Cards */
+    .steps-section {
+        padding: 60px 0;
+    }
+
+    .steps-section .top-part .global-para {
+        width: 66%;
+        margin-bottom: 26px;
+    }
+
+    .steps-section .bottom-part .global-heading {
+        margin-bottom: 14px;
+    }
+
+    .steps-section .bottom-part .global-para {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .steps-section .global-button {
+        width: 150px;
+        padding: 5px 0px;
+    }
+
     /* Two Cards Section */
     .two-cards-section {
         padding-bottom: 30px;
@@ -545,6 +614,11 @@
 
     .like-today .para {
         width: 66%;
+    }
+
+    /* Steps Section */
+    .steps-section .right-part {
+        display: none;
     }
 
     /* Two Cards Section */
@@ -634,6 +708,11 @@
         width: 78%;
     }
 
+    /* Steps Section */
+    .steps-section .top-part .global-para {
+        width: 75%;
+    }
+
     /* Two Cards Section */
     .two-cards-section .global-para {
         width: 90%;
@@ -692,6 +771,11 @@
 
     .like-today .para {
         width: 90%;
+    }
+
+    /* Steps Section */
+    .steps-section .top-part .global-para {
+        width: 100%;
     }
 
     /* Two Cards Section */
