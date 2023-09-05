@@ -4,8 +4,8 @@
 
 .hero-content-parent {
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .hero-content {
@@ -13,7 +13,7 @@
     z-index: 1;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
 }
 
