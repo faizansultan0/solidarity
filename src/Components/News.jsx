@@ -3,6 +3,16 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import GlobalButton from "./SmallComponents/GlobalButton";
+import { Link } from "react-router-dom";
+import News1 from '../assets/images/news-1.png';
+import News2 from '../assets/images/news-2.png';
+import News3 from '../assets/images/news-3.png';
+import News4 from '../assets/images/news-4.png';
+import News5 from '../assets/images/news-5.png';
+import News6 from '../assets/images/news-6.png';
+import News7 from '../assets/images/news-7.png';
+import News8 from '../assets/images/news-8.png';
+import News9 from '../assets/images/news-9.png';
 import './News.css';
 
 const News = () => {
@@ -43,6 +53,114 @@ const News = () => {
                             </Row>
 
                         </form>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="news-cards-section">
+                <Container>
+                    <div className="news-cards">
+                        <Row>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className="card-link" >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News1 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity Bahrain officially launches its new Mobile Application</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News2 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity Bahrain approves 18% cash dividend to the shareholders</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News3 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity’s Digital retail transactions Grew by 70% in 2021</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News4 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity Bahrain Announces Key Promotions</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News5 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity Bahrain approves 18% cash dividend to the shareholders</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News6 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity’s Digital retail transactions Grew by 70% in 2021</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News7 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity Bahrain B.S.C. announces net profits of BD 3.31 million for the year 2021</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News8 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity Bahrain Hosts Long Service Awards to Honor Employees</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                            <Col lg={4} xs={6}>
+                                <Link to='/' className='card-link' >
+                                    <div className="news-card">
+                                        <div className="img-div">
+                                            <img src={ News9 } alt="News" className="img" />
+                                        </div>
+                                        <span className="date">July 7, 2022</span>
+                                        <span className="title global-heading">Solidarity Group Holding announced the Completion of T’azur merger with Solidarity...</span>
+                                    </div>
+                                </Link>
+                            </Col>
+                        </Row>
                     </div>
                 </Container>
             </section>

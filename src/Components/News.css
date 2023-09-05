@@ -45,6 +45,70 @@
     padding: 8px;
 }
 
+
+/* News Cards */
+.news-cards {
+    margin-top: -77px;
+}
+
+.news-cards .card-link {
+    color: unset;
+    text-decoration: unset;
+}
+
+.news-card {
+    padding-bottom: 68px;
+}
+
+.news-card .img-div {
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.news-card img {
+    width: 100%;
+    min-height: 260px;
+    border-radius: 10px;
+}
+
+.news-card .date {
+    display: block;
+    font-size: 14px;
+    color: #5B6871;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.news-card .title {
+    font-size: 26px;
+}
+
+@media screen and (max-width: 1199.9px) {
+    .news-card {
+        padding-bottom: 40px;
+    }
+
+    .news-card .img-div {
+        height: 226px;
+        margin-bottom: 10px;
+    }
+
+    .news-card .img {
+        min-height: 226px;
+    }
+
+    .news-card .date {
+        margin-bottom: 0px;
+    }
+
+    .news-card .title {
+        font-size: 20px;
+    }
+}
+
+
 @media screen and (max-width: 991.9px) {
     #news-form {
         padding: 22px;
@@ -67,10 +131,60 @@
     #news-form .input-div {
         margin-bottom: 20px;
     }
+
+    /* News Cards */
+    .news-card .img-div {
+        height: 180px;
+    }
+
+    .news-card .img {
+        min-height: 180px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .news-card .title {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .news-card .img-div {
+        height: 156px;
+    }
+
+    .news-card .img {
+        min-height: 156px;
+    }
 }
 
 @media screen and (max-width: 380px) {
     #news-form {
         padding: 16px;
+    }
+
+    /* News Cards */
+    .news-cards .row>* {
+        padding: 0 4px;
+    }
+
+    .news-card {
+        padding-bottom: 24px;
+    }
+
+    .news-card .img-div {
+        height: 136px;
+    }
+
+    .news-card .img {
+        min-height: 136px;
+    }
+
+    .news-card .date {
+        font-size: 13px;
+    }
+
+    .news-card .title {
+        font-size: 16px;
     }
 }
