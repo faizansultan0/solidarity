@@ -286,8 +286,7 @@
 
 /* Two Cards Section */
 .two-cards-section {
-    /* padding: 116px 0 153px; */
-    padding-bottom: 153px;
+    padding: 116px 0 153px;
 }
 
 .two-cards-section .top-content {
@@ -375,6 +374,7 @@
     /* Two Cards Section */
     .two-cards-section {
         padding-bottom: 110px;
+        padding-top: 100px;
     }
 }
 
@@ -443,6 +443,7 @@
     /* Two Cards Section */
     .two-cards-section {
         padding-bottom: 60px;
+        padding-top: 54px;
     }
 
     .two-cards-section .global-para {
@@ -550,7 +551,9 @@
     /* Two Cards Section */
     .two-cards-section {
         padding-bottom: 30px;
+        padding-top: 28px;
     }
+    
     .two-cards-section .global-heading {
         margin-bottom: 4px;
     }
