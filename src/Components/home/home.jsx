@@ -15,11 +15,12 @@ import ReadyImage from '../../assets/images/ready-img.png';
 import StepsImage from '../../assets/images/steps-img.png';
 import TwoCards from '../twoCardsPart/twoCards';
 import CoveredSection from '../coveredSection/coveredSection';
+import Layout from '../../layout';
 import './home.css';
 
 const Home = () => {
     return (
-        <>
+        <Layout>
             <MainBanner />
             <section className="primary-cards">
                 <Container>
@@ -180,7 +181,7 @@ const Home = () => {
                     </div>
                 </Container>
             </section>
-        </>
+        </Layout>
     )
 }
 

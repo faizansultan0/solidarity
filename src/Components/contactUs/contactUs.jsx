@@ -1,4 +1,5 @@
 import CoveredSection from "../coveredSection/coveredSection";
+import Layout from '../../layout';
 import { Container, Row, Col } from 'react-bootstrap';
 import ImagePlaceHolder from '../../assets/images/image-placeholder.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,7 +16,7 @@ const ContactUs = () => {
     });
 
     return (
-        <>
+        <Layout>
             <section className="contact-hero contact">
                 <Container>
                     <div className="content">
@@ -152,7 +153,7 @@ const ContactUs = () => {
             </section>
 
             <CoveredSection />
-        </>
+        </Layout>
     )
 }
 

@@ -1,4 +1,5 @@
 import CoveredSection from "../coveredSection/coveredSection";
+import Layout from '../../layout';
 import { Container, Row, Col } from 'react-bootstrap';
 import MainImage from '../../assets/images/solidarity-main.png';
 import Director1 from '../../assets/images/director-1.jpeg';
@@ -22,7 +23,7 @@ import './aboutUs.css';
 
 const AboutUs = () => {
     return (
-        <>
+        <Layout>
             <section className="contact-hero contact" id="about-hero">
                 <Container>
                     <div className="content">
@@ -241,7 +242,7 @@ const AboutUs = () => {
             </section>
 
             <CoveredSection />
-        </>
+        </Layout>
     )
 }
 

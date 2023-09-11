@@ -12,6 +12,7 @@ import MotorRide from '../../assets/images/motor-ride.png';
 import PDFPlaceHolder from '../../assets/images/pdf-file-placeholder.png';
 import GlobalButton from '../globalButton/globalButton';
 import TwoCards from '../twoCardsPart/twoCards';
+import Layout from '../../layout';
 import './motorInsurance.css';
 
 const PrevArrow = (props) => {
@@ -44,7 +45,7 @@ const MotorInsurance = () => {
     };
     
     return (
-        <>
+        <Layout>
             <section className="contact-hero contact" id="motor-hero">
                 <Container>
                     <div className="content">
@@ -415,7 +416,7 @@ const MotorInsurance = () => {
                     </div>
                 </Container>
             </section>
-        </>
+        </Layout>
     )
 }
 

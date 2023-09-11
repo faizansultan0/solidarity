@@ -34,7 +34,7 @@ const Header = () => {
                                     <Link to='/privacy' className='dropdown-item'>Privacy & Security</Link>
                                 </NavDropdown>
                                 <li className="nav-item">
-                                    <Link to='/#' className='nav-link'>Login</Link>
+                                    <Link to='/login' className='nav-link'>Login</Link>
                                 </li>
                                 <li>
                                     <GlobalButton to='#sign-up' text='Get a Quote' arrow='true' />

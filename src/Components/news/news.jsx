@@ -1,6 +1,7 @@
 import CoveredSection from "../coveredSection/coveredSection";
-import { Container, Row, Col } from 'react-bootstrap';
 import GlobalButton from "../globalButton/globalButton";
+import Layout from '../../layout';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import News1 from '../../assets/images/news-1.png';
 import News2 from '../../assets/images/news-2.png';
@@ -15,7 +16,7 @@ import './news.css';
 
 const News = () => {
     return (
-        <>
+        <Layout>
             <section className="contact-hero contact" id="news-hero">
                 <Container>
                     <div className="content">
@@ -164,7 +165,7 @@ const News = () => {
             </section>
 
             <CoveredSection />
-        </>
+        </Layout>
     )
 }
 
