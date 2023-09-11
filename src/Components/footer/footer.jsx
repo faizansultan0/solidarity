@@ -1,8 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from '../../assets/images/Logo.png';
-import AppStoreImg from '../../assets/images/download-app-store.png';
-import PlayStoreImg from '../../assets/images/download-play-store.png';
+import images from "../../assets/images";
 import './footer.css';
 
 const Footer = () => {
@@ -15,17 +13,17 @@ const Footer = () => {
                             <div className="column">
                                 <strong className="logo">
                                     <Link to='/' className="link">
-                                        <img src={ Logo } alt="Solidarity Logo" className="img" />
+                                        <img src={ images.Logo } alt="Solidarity Logo" className="img" />
                                     </Link>
                                 </strong>
 
                                 <div className="download-buttons">
                                     <Link to='/' className="download-link">
-                                            <img src={ AppStoreImg } alt="DownloadFromAppStore" className="img" />
+                                            <img src={ images.AppStoreImg } alt="DownloadFromAppStore" className="img" />
                                     </Link>
 
                                     <Link to='/' className="download-link">
-                                            <img src={ PlayStoreImg } alt="DownloadFromPlayStore" className="img" />
+                                            <img src={ images.PlayStoreImg } alt="DownloadFromPlayStore" className="img" />
                                     </Link>
                                 </div>
                             </div>

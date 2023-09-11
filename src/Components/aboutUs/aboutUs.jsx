@@ -1,24 +1,7 @@
 import CoveredSection from "../coveredSection/coveredSection";
 import Layout from '../../layout';
 import { Container, Row, Col } from 'react-bootstrap';
-import MainImage from '../../assets/images/solidarity-main.png';
-import Director1 from '../../assets/images/director-1.jpeg';
-import Director2 from '../../assets/images/director-2.jpeg';
-import Director3 from '../../assets/images/director-3.jpeg';
-import Director4 from '../../assets/images/director-4.jpeg';
-import Director5 from '../../assets/images/director-5.jpeg';
-import Director6 from '../../assets/images/director-6.jpeg';
-import Director7 from '../../assets/images/director-7.png';
-import Sharia1 from '../../assets/images/sharia-1.jpeg';
-import Sharia2 from '../../assets/images/sharia-2.jpeg';
-import Sharia3 from '../../assets/images/sharia-3.jpeg';
-import Management1 from '../../assets/images/management-1.jpeg';
-import Management2 from '../../assets/images/management-2.jpeg';
-import Management3 from '../../assets/images/management-3.jpeg';
-import Management4 from '../../assets/images/management-4.jpeg';
-import Management5 from '../../assets/images/management-5.jpeg';
-import Management6 from '../../assets/images/management-6.jpeg';
-import Management7 from '../../assets/images/management-7.jpeg';
+import images from "../../assets/images";
 import './aboutUs.css';
 
 const AboutUs = () => {
@@ -36,7 +19,7 @@ const AboutUs = () => {
             <section className="main-img-section">
                 <Container>
                     <div className="img-div">
-                        <img src={MainImage} alt="Solidarity Main" className="img" />
+                        <img src={images.MainImage} alt="Solidarity Main" className="img" />
                     </div>
                 </Container>
             </section>
@@ -61,7 +44,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Director1} alt="Director" className="img" />
+                                            <img src={images.Director1} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Tawfeeq Shehab</h4>
                                         <p className="tag-line">Chairman to the Board of Directors |  Independent Non-Executive</p>
@@ -70,7 +53,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Director2} alt="Director" className="img" />
+                                            <img src={images.Director2} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Ashraf Bseisu</h4>
                                         <p className="tag-line">Vice Chairman to the Board of Directors  |  Executive Director</p>
@@ -79,7 +62,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Director3} alt="Director" className="img" />
+                                            <img src={images.Director3} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Dr. Nadhem Al Saleh</h4>
                                         <p className="tag-line">Member of the Board of Directors | Independent Non-Executive</p>
@@ -88,7 +71,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Director4} alt="Director" className="img" />
+                                            <img src={images.Director4} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Sharif Ahmadi</h4>
                                         <p className="tag-line">Member of the Board of Directors |Independent Non-Executive</p>
@@ -97,7 +80,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Director5} alt="Director" className="img" />
+                                            <img src={images.Director5} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Ali Isa Abdulrahim</h4>
                                         <p className="tag-line">Member of the Board of Directors |Non-Executive Director</p>
@@ -106,7 +89,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Director6} alt="Director" className="img" />
+                                            <img src={images.Director6} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Venkatesan Muniswamy</h4>
                                         <p className="tag-line">Member of the Board of Directors |Executive Director</p>
@@ -115,7 +98,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Director7} alt="Director" className="img" />
+                                            <img src={images.Director7} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Bashar Nass</h4>
                                         <p className="tag-line">Member of the Board of Directors |Non-Executive Director</p>
@@ -136,7 +119,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Sharia1} alt="Director" className="img" />
+                                            <img src={images.Sharia1} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Shaikh Abdul Nasser Al Mahmood</h4>
                                         <p className="tag-line">Member of Sharia Supervisory Board</p>
@@ -145,7 +128,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Sharia2} alt="Director" className="img" />
+                                            <img src={images.Sharia2} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Shaikh Dr. Osama Bahar</h4>
                                         <p className="tag-line">Member of Sharia Supervisory Board |  Member of the Corporate Governance Committee</p>
@@ -154,7 +137,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Sharia3} alt="Director" className="img" />
+                                            <img src={images.Sharia3} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Shaikh Mohsin Shaikh A. Hussain Al Asfoor</h4>
                                         <p className="tag-line">Member of Sharia Supervisory Board</p>
@@ -175,7 +158,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Management1} alt="Director" className="img" />
+                                            <img src={images.Management1} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Jawad Mohammed</h4>
                                         <p className="tag-line">Chief Executive Officer</p>
@@ -184,7 +167,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Management2} alt="Director" className="img" />
+                                            <img src={images.Management2} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Nandakumar Duraiswamy</h4>
                                         <p className="tag-line">Deputy General Manager | Operations</p>
@@ -193,7 +176,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Management3} alt="Director" className="img" />
+                                            <img src={images.Management3} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Mohammed Awachi</h4>
                                         <p className="tag-line">Assistant General Manager | Corporate Support</p>
@@ -202,7 +185,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Management4} alt="Director" className="img" />
+                                            <img src={images.Management4} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Jai Prakash</h4>
                                         <p className="tag-line">Assistant General Manager | Business Development</p>
@@ -211,7 +194,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Management5} alt="Director" className="img" />
+                                            <img src={images.Management5} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Yasser Al Hammadi</h4>
                                         <p className="tag-line">Assistant General Manager | Compliance and Risk Management & Money Laundering Reporting Officer (MILR0) & Personal Data Protection and Secretary to the Board of Directors</p>
@@ -220,7 +203,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Management6} alt="Director" className="img" />
+                                            <img src={images.Management6} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Sanjeev Aggarwal</h4>
                                         <p className="tag-line">Head of Finance</p>
@@ -229,7 +212,7 @@ const AboutUs = () => {
                                 <Col lg={3} md={4} sm={6} >
                                     <div className="person-card">
                                         <div className="img-div">
-                                            <img src={Management7} alt="Director" className="img" />
+                                            <img src={images.Management7} alt="Director" className="img" />
                                         </div>
                                         <h4 className="name">Rashid Turk</h4>
                                         <p className="tag-line">Head of Medical & Life</p>

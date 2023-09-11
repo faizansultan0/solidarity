@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/images/Logo.png';
+import images from '../../assets/images';
 import GlobalButton from '../globalButton/globalButton';
 import './login.css';
 
@@ -14,7 +14,7 @@ const Login = () => {
                         <div className="login-card">
                             <strong className="logo">
                                 <Link to='/'>
-                                    <img src={ Logo } alt="Solidarity Logo" className='logo-img' />
+                                    <img src={ images.Logo } alt="Solidarity Logo" className='logo-img' />
                                 </Link>
                             </strong>
 

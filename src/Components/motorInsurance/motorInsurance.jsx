@@ -3,16 +3,10 @@ import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faArrowRightLong, faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
-import Feature1 from '../../assets/images/feature-1.png';
-import Feature2 from '../../assets/images/feature-2.png';
-import Feature3 from '../../assets/images/feature-3.png';
-import Feature4 from '../../assets/images/feature-4.png';
-import Feature5 from '../../assets/images/feature-5.png';
-import MotorRide from '../../assets/images/motor-ride.png';
-import PDFPlaceHolder from '../../assets/images/pdf-file-placeholder.png';
 import GlobalButton from '../globalButton/globalButton';
 import TwoCards from '../twoCardsPart/twoCards';
 import Layout from '../../layout';
+import images from '../../assets/images';
 import './motorInsurance.css';
 
 const PrevArrow = (props) => {
@@ -154,7 +148,7 @@ const MotorInsurance = () => {
                                 <Col lg={4}>
                                     <div className="primary-card">
                                         <div className="icon-div">
-                                            <img src={Feature1} alt="Approved Sign Insurance" className='icon' />
+                                            <img src={images.Feature1} alt="Approved Sign Insurance" className='icon' />
                                         </div>
                                         <h2 className="heading">Super Simple Claim</h2>
                                         <p className="para">No hidden clauses, no long-words, just simple documents and forms.</p>
@@ -163,7 +157,7 @@ const MotorInsurance = () => {
                                 <Col lg={4}>
                                     <div className="primary-card">
                                         <div className="icon-div">
-                                            <img src={Feature2} alt="Call Center" className='icon' />
+                                            <img src={images.Feature2} alt="Call Center" className='icon' />
                                         </div>
                                         <h2 className="heading">Fast Services</h2>
                                         <p className="para">Self-initiated web and mobile services gets you a new policy within minutes!</p>
@@ -172,7 +166,7 @@ const MotorInsurance = () => {
                                 <Col lg={4}>
                                     <div className="primary-card">
                                         <div className="icon-div">
-                                            <img src={Feature3} alt="Family Insurance" className='icon' />
+                                            <img src={images.Feature3} alt="Family Insurance" className='icon' />
                                         </div>
                                         <h2 className="heading">Trusted by Customers</h2>
                                         <p className="para">We are trusted by over 200,000 customers and 500 businesses.</p>
@@ -181,7 +175,7 @@ const MotorInsurance = () => {
                                 <Col lg={4}>
                                     <div className="primary-card">
                                         <div className="icon-div">
-                                            <img src={Feature4} alt="Family Insurance" className='icon' />
+                                            <img src={images.Feature4} alt="Family Insurance" className='icon' />
                                         </div>
                                         <h2 className="heading">Trusted by Customers</h2>
                                         <p className="para">We are trusted by over 200,000 customers and 500 businesses.</p>
@@ -190,7 +184,7 @@ const MotorInsurance = () => {
                                 <Col lg={4}>
                                     <div className="primary-card">
                                         <div className="icon-div">
-                                            <img src={Feature5} alt="Family Insurance" className='icon' />
+                                            <img src={images.Feature5} alt="Family Insurance" className='icon' />
                                         </div>
                                         <h2 className="heading">Trusted by Customers</h2>
                                         <p className="para">We are trusted by over 200,000 customers and 500 businesses.</p>
@@ -269,7 +263,7 @@ const MotorInsurance = () => {
                                         <div className="pdf-card">
                                             <div className="left-part">
                                                 <div className="icon-part">
-                                                    <img src={PDFPlaceHolder} alt="PDF" className='pdf-icon' />
+                                                    <img src={ images.PDFPlaceHolder } alt="PDF" className='pdf-icon' />
                                                 </div>
                                                 <div className="text-part">
                                                     <h5 className="label">Policy Specifications</h5>
@@ -286,7 +280,7 @@ const MotorInsurance = () => {
                                         <div className="pdf-card">
                                             <div className="left-part">
                                                 <div className="icon-part">
-                                                    <img src={PDFPlaceHolder} alt="PDF" className='pdf-icon' />
+                                                    <img src={ images.PDFPlaceHolder } alt="PDF" className='pdf-icon' />
                                                 </div>
                                                 <div className="text-part">
                                                     <h5 className="label">Product Brochure</h5>
@@ -303,7 +297,7 @@ const MotorInsurance = () => {
                                         <div className="pdf-card">
                                             <div className="left-part">
                                                 <div className="icon-part">
-                                                    <img src={PDFPlaceHolder} alt="PDF" className='pdf-icon' />
+                                                    <img src={ images.PDFPlaceHolder } alt="PDF" className='pdf-icon' />
                                                 </div>
                                                 <div className="text-part">
                                                     <h5 className="label">Claim Procedure</h5>
@@ -409,7 +403,7 @@ const MotorInsurance = () => {
                             </Col>
                             <Col lg={5}>
                                 <div className="image-part">
-                                    <img src={MotorRide} alt="Motor Ride" className="img" />
+                                    <img src={images.MotorRide} alt="Motor Ride" className="img" />
                                 </div>
                             </Col>
                         </Row>

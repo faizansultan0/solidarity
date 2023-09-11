@@ -1,10 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import Covered1 from '../../assets/images/covered1.png';
-import Covered2 from '../../assets/images/covered2.png';
-import Covered3 from '../../assets/images/covered3.png';
-import Covered4 from '../../assets/images/covered4.png';
-import Covered5 from '../../assets/images/covered5.png';
-import Covered6 from '../../assets/images/covered6.png';
+import images from '../../assets/images';
 import './coveredSection.css';
 
 const CoveredSection = () => {
@@ -21,7 +16,7 @@ const CoveredSection = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Covered1} alt="Insurance Option" className='img' />
+                                        <img src={images.Covered1} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Sign Up</span>
                                 </div>
@@ -29,7 +24,7 @@ const CoveredSection = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Covered2} alt="Insurance Option" className='img' />
+                                        <img src={images.Covered2} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Video Call</span>
                                 </div>
@@ -37,7 +32,7 @@ const CoveredSection = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Covered3} alt="Insurance Option" className='img' />
+                                        <img src={images.Covered3} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Whatsapp</span>
                                 </div>
@@ -45,7 +40,7 @@ const CoveredSection = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Covered4} alt="Insurance Option" className='img' />
+                                        <img src={images.Covered4} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Contact Us</span>
                                 </div>
@@ -53,7 +48,7 @@ const CoveredSection = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Covered5} alt="Insurance Option" className='img' />
+                                        <img src={images.Covered5} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Call Us</span>
                                 </div>
@@ -61,7 +56,7 @@ const CoveredSection = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Covered6} alt="Insurance Option" className='img' />
+                                        <img src={images.Covered6} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Start a Chat</span>
                                 </div>

@@ -1,7 +1,7 @@
 import { Container, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import GlobalButton from '../globalButton/globalButton';
-import Logo from '../../assets/images/Logo.png';
+import images from '../../assets/images';
 import './header.css';
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="header-content">
                     <strong className='logo'>
                         <Link to='/' className='link'>
-                            <img src={ Logo } alt="Logo" className='img' />
+                            <img src={ images.Logo } alt="Logo" className='img' />
                         </Link>
                     </strong>
 

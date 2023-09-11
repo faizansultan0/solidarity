@@ -1,17 +1,9 @@
 import CoveredSection from "../coveredSection/coveredSection";
 import GlobalButton from "../globalButton/globalButton";
-import Layout from '../../layout';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import News1 from '../../assets/images/news-1.png';
-import News2 from '../../assets/images/news-2.png';
-import News3 from '../../assets/images/news-3.png';
-import News4 from '../../assets/images/news-4.png';
-import News5 from '../../assets/images/news-5.png';
-import News6 from '../../assets/images/news-6.png';
-import News7 from '../../assets/images/news-7.png';
-import News8 from '../../assets/images/news-8.png';
-import News9 from '../../assets/images/news-9.png';
+import Layout from '../../layout';
+import images from "../../assets/images";
 import './news.css';
 
 const News = () => {
@@ -64,7 +56,7 @@ const News = () => {
                                 <Link to='/' className="card-link" >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News1 } alt="News" className="img" />
+                                            <img src={ images.News1 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity Bahrain officially launches its new Mobile Application</span>
@@ -75,7 +67,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News2 } alt="News" className="img" />
+                                            <img src={ images.News2 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity Bahrain approves 18% cash dividend to the shareholders</span>
@@ -86,7 +78,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News3 } alt="News" className="img" />
+                                            <img src={ images.News3 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity’s Digital retail transactions Grew by 70% in 2021</span>
@@ -97,7 +89,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News4 } alt="News" className="img" />
+                                            <img src={ images.News4 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity Bahrain Announces Key Promotions</span>
@@ -108,7 +100,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News5 } alt="News" className="img" />
+                                            <img src={ images.News5 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity Bahrain approves 18% cash dividend to the shareholders</span>
@@ -119,7 +111,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News6 } alt="News" className="img" />
+                                            <img src={ images.News6 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity’s Digital retail transactions Grew by 70% in 2021</span>
@@ -130,7 +122,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News7 } alt="News" className="img" />
+                                            <img src={ images.News7 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity Bahrain B.S.C. announces net profits of BD 3.31 million for the year 2021</span>
@@ -141,7 +133,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News8 } alt="News" className="img" />
+                                            <img src={ images.News8 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity Bahrain Hosts Long Service Awards to Honor Employees</span>
@@ -152,7 +144,7 @@ const News = () => {
                                 <Link to='/' className='card-link' >
                                     <div className="news-card">
                                         <div className="img-div">
-                                            <img src={ News9 } alt="News" className="img" />
+                                            <img src={ images.News9 } alt="News" className="img" />
                                         </div>
                                         <span className="date">July 7, 2022</span>
                                         <span className="title global-heading">Solidarity Group Holding announced the Completion of T’azur merger with Solidarity...</span>

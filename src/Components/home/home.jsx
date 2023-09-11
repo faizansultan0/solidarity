@@ -1,21 +1,10 @@
-
 import { Container, Row, Col } from 'react-bootstrap';
 import GlobalButton from '../globalButton/globalButton';
 import MainBanner from './mainBanner/mainBanner';
-import PrimaryCardIcon1 from '../../assets/images/primary-card-icon-1.png';
-import PrimaryCardIcon2 from '../../assets/images/primary-card-icon-2.png';
-import PrimaryCardIcon3 from '../../assets/images/primary-card-icon-3.png';
-import Option1 from '../../assets/images/insure-t-1.png';
-import Option2 from '../../assets/images/insure-t-2.png';
-import Option3 from '../../assets/images/insure-t-3.png';
-import Option4 from '../../assets/images/insure-t-4.png';
-import Option5 from '../../assets/images/insure-t-5.png';
-import Option6 from '../../assets/images/insure-t-6.png';
-import ReadyImage from '../../assets/images/ready-img.png';
-import StepsImage from '../../assets/images/steps-img.png';
 import TwoCards from '../twoCardsPart/twoCards';
 import CoveredSection from '../coveredSection/coveredSection';
 import Layout from '../../layout';
+import images from '../../assets/images';
 import './home.css';
 
 const Home = () => {
@@ -28,7 +17,7 @@ const Home = () => {
                         <Col lg={4}>
                             <div className="primary-card">
                                 <div className="icon-div">
-                                    <img src={PrimaryCardIcon1} alt="Approved Sign Insurance" className='icon' />
+                                    <img src={images.PrimaryCardIcon1} alt="Approved Sign Insurance" className='icon' />
                                 </div>
                                 <h2 className="heading">Super Simple Claim</h2>
                                 <p className="para">No hidden clauses, no long-words, just simple documents and forms.</p>
@@ -37,7 +26,7 @@ const Home = () => {
                         <Col lg={4}>
                             <div className="primary-card">
                                 <div className="icon-div">
-                                    <img src={PrimaryCardIcon2} alt="Call Center" className='icon' />
+                                    <img src={images.PrimaryCardIcon2} alt="Call Center" className='icon' />
                                 </div>
                                 <h2 className="heading">Fast Services</h2>
                                 <p className="para">Self-initiated web and mobile services gets you a new policy within minutes!</p>
@@ -46,7 +35,7 @@ const Home = () => {
                         <Col lg={4}>
                             <div className="primary-card">
                                 <div className="icon-div">
-                                    <img src={PrimaryCardIcon3} alt="Family Insurance" className='icon' />
+                                    <img src={images.PrimaryCardIcon3} alt="Family Insurance" className='icon' />
                                 </div>
                                 <h2 className="heading">Trusted by Customers</h2>
                                 <p className="para">We are trusted by over 200,000 customers and 500 businesses.</p>
@@ -65,7 +54,7 @@ const Home = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Option1} alt="Insurance Option" className='img' />
+                                        <img src={images.Option1} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Motor & Car</span>
                                 </div>
@@ -73,7 +62,7 @@ const Home = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Option2} alt="Insurance Option" className='img' />
+                                        <img src={images.Option2} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Home</span>
                                 </div>
@@ -81,7 +70,7 @@ const Home = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Option3} alt="Insurance Option" className='img' />
+                                        <img src={images.Option3} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Travel</span>
                                 </div>
@@ -89,7 +78,7 @@ const Home = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Option4} alt="Insurance Option" className='img' />
+                                        <img src={images.Option4} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Domestic Helper</span>
                                 </div>
@@ -97,7 +86,7 @@ const Home = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Option5} alt="Insurance Option" className='img' />
+                                        <img src={images.Option5} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Accident</span>
                                 </div>
@@ -105,7 +94,7 @@ const Home = () => {
                             <Col lg={2} md={4} sm={6} >
                                 <div className="sm-card">
                                     <div className="img-div">
-                                        <img src={Option6} alt="Insurance Option" className='img' />
+                                        <img src={images.Option6} alt="Insurance Option" className='img' />
                                     </div>
                                     <span className="caption">Expat Medical Visa</span>
                                 </div>
@@ -138,7 +127,7 @@ const Home = () => {
                             </Col>
                             <Col md={8}>
                                 <div className="right-part">
-                                    <img src={StepsImage} alt="Step 1" className='img' />
+                                    <img src={images.StepsImage} alt="Step 1" className='img' />
                                 </div>
                             </Col>
                         </Row>
@@ -174,7 +163,7 @@ const Home = () => {
                             </Col>
                             <Col lg={5}>
                                 <div className="image-part">
-                                    <img src={ReadyImage} alt="Ready to get Insured" className="img" />
+                                    <img src={images.ReadyImage} alt="Ready to get Insured" className="img" />
                                 </div>
                             </Col>
                         </Row>
