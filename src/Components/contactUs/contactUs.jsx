@@ -6,7 +6,7 @@ import { faMap } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import './contactUs.css';
-import SolidatoryLocations from '../../Data/SolidatoryLocations.json';
+import SolidatoryLocations from '../../data/SolidatoryLocations.json';
 import { useState } from "react";
 
 const ContactUs = () => {

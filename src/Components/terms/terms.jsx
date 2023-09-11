@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import TermsReceived from '../../Data/terms.json';
+import TermsReceived from '../../data/terms.json';
 import './terms.css';
 
 const Terms = () => {
