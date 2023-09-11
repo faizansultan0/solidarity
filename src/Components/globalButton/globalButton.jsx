@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import './GlobalButton.css';
 import ArrowIcon from '../../assets/images/arrow-narrow-right.svg';
+import './globalButton.css';
 
 const GlobalButton = (props) => {
     return (

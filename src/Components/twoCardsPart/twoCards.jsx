@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import TCard1 from '../../assets/images/tcard-1.png';
 import TCard2 from '../../assets/images/tcard-2.png';
-import './TwoCards.css';
+import './twoCards.css';
 
 const TwoCards = () => {
 

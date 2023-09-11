@@ -1,24 +1,22 @@
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import './Home.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import GlobalButton from '../Components/SmallComponents/GlobalButton';
-import PrimaryCardIcon1 from '../assets/images/primary-card-icon-1.png';
-import PrimaryCardIcon2 from '../assets/images/primary-card-icon-2.png';
-import PrimaryCardIcon3 from '../assets/images/primary-card-icon-3.png';
-import Option1 from '../assets/images/insure-t-1.png';
-import Option2 from '../assets/images/insure-t-2.png';
-import Option3 from '../assets/images/insure-t-3.png';
-import Option4 from '../assets/images/insure-t-4.png';
-import Option5 from '../assets/images/insure-t-5.png';
-import Option6 from '../assets/images/insure-t-6.png';
-import ReadyImage from '../assets/images/ready-img.png';
-import StepsImage from '../assets/images/steps-img.png';
-import TwoCards from './SmallComponents/TwoCards';
-import CoveredSection from './SmallComponents/CoveredSection';
+import { Container, Row, Col } from 'react-bootstrap';
+import GlobalButton from '../globalButton/globalButton';
+import PrimaryCardIcon1 from '../../assets/images/primary-card-icon-1.png';
+import PrimaryCardIcon2 from '../../assets/images/primary-card-icon-2.png';
+import PrimaryCardIcon3 from '../../assets/images/primary-card-icon-3.png';
+import Option1 from '../../assets/images/insure-t-1.png';
+import Option2 from '../../assets/images/insure-t-2.png';
+import Option3 from '../../assets/images/insure-t-3.png';
+import Option4 from '../../assets/images/insure-t-4.png';
+import Option5 from '../../assets/images/insure-t-5.png';
+import Option6 from '../../assets/images/insure-t-6.png';
+import ReadyImage from '../../assets/images/ready-img.png';
+import StepsImage from '../../assets/images/steps-img.png';
+import TwoCards from '../twoCardsPart/twoCards';
+import CoveredSection from '../coveredSection/coveredSection';
 import Slider from 'react-slick';
+import './home.css';
 
 const Home = () => {
     let sliderSettings = {
@@ -29,8 +27,9 @@ const Home = () => {
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 3000,
-        fade: true
+        autoplaySpeed: 3500,
+        fade: true,
+        pauseOnHover: false
     }
 
     return (

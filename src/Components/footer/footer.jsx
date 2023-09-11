@@ -2,10 +2,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col"
 import { Link } from "react-router-dom";
-import Logo from '../assets/images/Logo.png';
-import AppStoreImg from '../assets/images/download-app-store.png';
-import PlayStoreImg from '../assets/images/download-play-store.png';
-import './Footer.css';
+import Logo from '../../assets/images/Logo.png';
+import AppStoreImg from '../../assets/images/download-app-store.png';
+import PlayStoreImg from '../../assets/images/download-play-store.png';
+import './footer.css';
 
 const Footer = () => {
     return (

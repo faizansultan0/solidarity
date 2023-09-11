@@ -1,14 +1,14 @@
-import CoveredSection from "./SmallComponents/CoveredSection";
+import CoveredSection from "../coveredSection/coveredSection";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ImagePlaceHolder from '../assets/images/image-placeholder.png';
+import ImagePlaceHolder from '../../assets/images/image-placeholder.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMap } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import './ContactUs.css';
-import SolidatoryLocations from '../Data/SolidatoryLocations.json';
+import './contactUs.css';
+import SolidatoryLocations from '../../Data/SolidatoryLocations.json';
 import { useState } from "react";
 
 const ContactUs = () => {

@@ -1,26 +1,26 @@
-import CoveredSection from "./SmallComponents/CoveredSection";
+import CoveredSection from "../coveredSection/coveredSection";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import MainImage from '../assets/images/solidarity-main.png';
-import Director1 from '../assets/images/director-1.jpeg';
-import Director2 from '../assets/images/director-2.jpeg';
-import Director3 from '../assets/images/director-3.jpeg';
-import Director4 from '../assets/images/director-4.jpeg';
-import Director5 from '../assets/images/director-5.jpeg';
-import Director6 from '../assets/images/director-6.jpeg';
-import Director7 from '../assets/images/director-7.png';
-import Sharia1 from '../assets/images/sharia-1.jpeg';
-import Sharia2 from '../assets/images/sharia-2.jpeg';
-import Sharia3 from '../assets/images/sharia-3.jpeg';
-import Management1 from '../assets/images/management-1.jpeg';
-import Management2 from '../assets/images/management-2.jpeg';
-import Management3 from '../assets/images/management-3.jpeg';
-import Management4 from '../assets/images/management-4.jpeg';
-import Management5 from '../assets/images/management-5.jpeg';
-import Management6 from '../assets/images/management-6.jpeg';
-import Management7 from '../assets/images/management-7.jpeg';
-import './AboutUs.css';
+import MainImage from '../../assets/images/solidarity-main.png';
+import Director1 from '../../assets/images/director-1.jpeg';
+import Director2 from '../../assets/images/director-2.jpeg';
+import Director3 from '../../assets/images/director-3.jpeg';
+import Director4 from '../../assets/images/director-4.jpeg';
+import Director5 from '../../assets/images/director-5.jpeg';
+import Director6 from '../../assets/images/director-6.jpeg';
+import Director7 from '../../assets/images/director-7.png';
+import Sharia1 from '../../assets/images/sharia-1.jpeg';
+import Sharia2 from '../../assets/images/sharia-2.jpeg';
+import Sharia3 from '../../assets/images/sharia-3.jpeg';
+import Management1 from '../../assets/images/management-1.jpeg';
+import Management2 from '../../assets/images/management-2.jpeg';
+import Management3 from '../../assets/images/management-3.jpeg';
+import Management4 from '../../assets/images/management-4.jpeg';
+import Management5 from '../../assets/images/management-5.jpeg';
+import Management6 from '../../assets/images/management-6.jpeg';
+import Management7 from '../../assets/images/management-7.jpeg';
+import './aboutUs.css';
 
 const AboutUs = () => {
     return (

@@ -5,16 +5,16 @@ import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faArrowRightLong, faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
-import Feature1 from '../assets/images/feature-1.png';
-import Feature2 from '../assets/images/feature-2.png';
-import Feature3 from '../assets/images/feature-3.png';
-import Feature4 from '../assets/images/feature-4.png';
-import Feature5 from '../assets/images/feature-5.png';
-import MotorRide from '../assets/images/motor-ride.png';
-import PDFPlaceHolder from '../assets/images/pdf-file-placeholder.png';
-import GlobalButton from './SmallComponents/GlobalButton';
-import TwoCards from './SmallComponents/TwoCards';
-import './MotorInsurance.css';
+import Feature1 from '../../assets/images/feature-1.png';
+import Feature2 from '../../assets/images/feature-2.png';
+import Feature3 from '../../assets/images/feature-3.png';
+import Feature4 from '../../assets/images/feature-4.png';
+import Feature5 from '../../assets/images/feature-5.png';
+import MotorRide from '../../assets/images/motor-ride.png';
+import PDFPlaceHolder from '../../assets/images/pdf-file-placeholder.png';
+import GlobalButton from '../globalButton/globalButton';
+import TwoCards from '../twoCardsPart/twoCards';
+import './motorInsurance.css';
 
 const PrevArrow = (props) => {
     const { onClick } = props;

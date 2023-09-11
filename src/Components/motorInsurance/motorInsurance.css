@@ -128,7 +128,7 @@
 }
 
 .motor-carousel-content .carousel-parent {
-    background: url('../assets/images/motor-carousel-bg.png') -69.621px -120.237px / 137.862% 152.337% no-repeat;
+    background: url('../../assets/images/motor-carousel-bg.png') -69.621px -120.237px / 137.862% 152.337% no-repeat;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -237,7 +237,7 @@
 
 /* Ride Section */
 #motor-ride-section {
-    background: url('../assets/images/ride-bg.png') right top no-repeat, #EDFAFF;
+    background: url('../../assets/images/ride-bg.png') right top no-repeat, #EDFAFF;
 }
 
 #motor-ride-section .buttons {

@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
-import './Terms.css';
-import TermsReceived from '../Data/terms.json';
+import TermsReceived from '../../Data/terms.json';
+import './terms.css';
 
 const Terms = () => {
     const TermsData = TermsReceived;

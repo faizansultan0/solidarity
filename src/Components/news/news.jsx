@@ -1,19 +1,19 @@
-import CoveredSection from "./SmallComponents/CoveredSection";
+import CoveredSection from "../coveredSection/coveredSection";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import GlobalButton from "./SmallComponents/GlobalButton";
+import GlobalButton from "../globalButton/globalButton";
 import { Link } from "react-router-dom";
-import News1 from '../assets/images/news-1.png';
-import News2 from '../assets/images/news-2.png';
-import News3 from '../assets/images/news-3.png';
-import News4 from '../assets/images/news-4.png';
-import News5 from '../assets/images/news-5.png';
-import News6 from '../assets/images/news-6.png';
-import News7 from '../assets/images/news-7.png';
-import News8 from '../assets/images/news-8.png';
-import News9 from '../assets/images/news-9.png';
-import './News.css';
+import News1 from '../../assets/images/news-1.png';
+import News2 from '../../assets/images/news-2.png';
+import News3 from '../../assets/images/news-3.png';
+import News4 from '../../assets/images/news-4.png';
+import News5 from '../../assets/images/news-5.png';
+import News6 from '../../assets/images/news-6.png';
+import News7 from '../../assets/images/news-7.png';
+import News8 from '../../assets/images/news-8.png';
+import News9 from '../../assets/images/news-9.png';
+import './news.css';
 
 const News = () => {
     return (

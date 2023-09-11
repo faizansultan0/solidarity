@@ -7,7 +7,7 @@ import Covered3 from '../../assets/images/covered3.png';
 import Covered4 from '../../assets/images/covered4.png';
 import Covered5 from '../../assets/images/covered5.png';
 import Covered6 from '../../assets/images/covered6.png';
-import './CoveredSection.css';
+import './coveredSection.css';
 
 const CoveredSection = () => {
     return (

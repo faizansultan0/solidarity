@@ -2,9 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-import GlobalButton from './SmallComponents/GlobalButton';
-import Logo from '../assets/images/Logo.png';
-import './Header.css';
+import GlobalButton from '../globalButton/globalButton';
+import Logo from '../../assets/images/Logo.png';
+import './header.css';
 
 const Header = () => {
     return (

@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import './PrivacySecurity.css';
+import './privacySecurity.css';
 
 const PrivacySecurity = () => {
     return (
