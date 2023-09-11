@@ -1,6 +1,4 @@
-import Container from "react-bootstrap/Container"; 
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col"
+import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from '../../assets/images/Logo.png';
 import AppStoreImg from '../../assets/images/download-app-store.png';

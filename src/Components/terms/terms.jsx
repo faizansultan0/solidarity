@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+import { Container } from 'react-bootstrap';
 import TermsReceived from '../../Data/terms.json';
 import './terms.css';
 

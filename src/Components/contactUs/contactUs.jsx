@@ -1,7 +1,5 @@
 import CoveredSection from "../coveredSection/coveredSection";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 import ImagePlaceHolder from '../../assets/images/image-placeholder.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMap } from "@fortawesome/free-regular-svg-icons";

@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+import { Container } from 'react-bootstrap';
 import TCard1 from '../../assets/images/tcard-1.png';
 import TCard2 from '../../assets/images/tcard-2.png';
 import './twoCards.css';

@@ -1,6 +1,4 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 import Covered1 from '../../assets/images/covered1.png';
 import Covered2 from '../../assets/images/covered2.png';
 import Covered3 from '../../assets/images/covered3.png';

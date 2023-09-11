@@ -1,7 +1,5 @@
 import CoveredSection from "../coveredSection/coveredSection";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 import GlobalButton from "../globalButton/globalButton";
 import { Link } from "react-router-dom";
 import News1 from '../../assets/images/news-1.png';

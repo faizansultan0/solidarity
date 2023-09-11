@@ -1,7 +1,5 @@
 import CoveredSection from "../coveredSection/coveredSection";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 import MainImage from '../../assets/images/solidarity-main.png';
 import Director1 from '../../assets/images/director-1.jpeg';
 import Director2 from '../../assets/images/director-2.jpeg';

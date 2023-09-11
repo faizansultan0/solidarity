@@ -1,5 +1,6 @@
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 import { Container, Row, Col } from 'react-bootstrap';
 import GlobalButton from '../globalButton/globalButton';
 import PrimaryCardIcon1 from '../../assets/images/primary-card-icon-1.png';
@@ -15,7 +16,6 @@ import ReadyImage from '../../assets/images/ready-img.png';
 import StepsImage from '../../assets/images/steps-img.png';
 import TwoCards from '../twoCardsPart/twoCards';
 import CoveredSection from '../coveredSection/coveredSection';
-import Slider from 'react-slick';
 import './home.css';
 
 const Home = () => {
