@@ -1,0 +1,161 @@
+
+.login-page .content {
+    display: flex;
+}
+
+.login-page .left-part {
+    width: 25%;
+    background: url('../../assets/images/login-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    height:inherit;
+}
+
+.login-page .right-part {
+    width: 75%;
+    padding-left: 216px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.login-page .login-card {
+    width: 360px;
+}
+
+.login-page .logo {
+    margin-bottom: 94px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.login-page .logo-img {
+    width: 264px;
+}
+
+.login-page .heading {
+    font-weight: 700;
+}
+
+.login-page .para {
+    margin-bottom: 50px;
+}
+
+.login-page .input-div {
+    margin-bottom: 16px;
+}
+
+.login-page label {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.login-page .forgot-link {
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 60px;
+    display: block;
+}
+
+.login-page .forgot-link:hover {
+    text-decoration: none;
+}
+
+.login-page .global-button {
+    width: 100%;
+}
+
+.login-page .global-button ~ .label {
+    display: inline-block;
+}
+
+.login-page .signup-link {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 2px;
+    color: black;
+}
+
+.login-page .signup-link:hover {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 900px) {
+    .login-page .container-fluid {
+        padding: 0;
+    }       
+}
+
+@media screen and (max-width: 1750px) {
+    .login-page .right-part {
+        padding-top: 50px;
+    }
+
+    .login-page .logo {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .login-page .logo-img {
+        width: 230px;
+    }
+
+    .login-page .forgot-link {
+        margin-bottom: 46px;
+    }
+}
+
+@media screen and (max-width: 1422px) {
+    .login-page .logo {
+        margin-bottom: 30px;
+    }
+
+    .login-page .heading {
+        font-size: 36px;
+    }
+
+    .login-page .para {
+        margin-bottom: 30px;
+    }
+
+    .login-page .forgot-link {
+        margin-bottom: 38px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .login-page .login-card {
+        width: 330px;
+    }
+
+    .login-page .para {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 899.9px) {
+    .login-page .left-part {
+        width: 0;
+    }
+
+    .login-page .right-part {
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .login-page .login-card {
+        width: 100%;
+    }
+
+    .login-page .logo-img {
+        width: 210px;
+    }
+}
