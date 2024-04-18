@@ -97,7 +97,7 @@
 }
 
 #hero3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../../../assets/images/hero3bg.png') no-repeat center center,#E3F8FF;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../../../assets/images/hero3bg.png') center center/cover no-repeat,#E3F8FF;
 }
 
 #hero3 .hero-content-parent {
