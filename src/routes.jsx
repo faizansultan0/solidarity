@@ -1,4 +1,4 @@
-import Home from './components/home/home';
+import Home from './components/home';
 import MotorInsurance from './components/motorInsurance/motorInsurance';
 import AboutUs from './components/aboutUs/aboutUs';
 import ContactUs from './components/contactUs/contactUs';
